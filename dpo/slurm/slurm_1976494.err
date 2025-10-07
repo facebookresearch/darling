@@ -1,0 +1,1308 @@
+/home/tianjian/.zshrc: line 1: setopt: command not found
+/home/tianjian/.zshrc: line 5: bindkey: command not found
+/home/tianjian/.zshrc: line 13: autoload: command not found
+/home/tianjian/.zshrc: line 14: compinit: command not found
+/home/tianjian/.zshrc: line 16: zstyle: command not found
+/home/tianjian/.zshrc: line 17: zstyle: command not found
+/home/tianjian/.zshrc: line 18: zstyle: command not found
+/home/tianjian/.zshrc: line 19: zstyle: command not found
+/home/tianjian/.zshrc: line 20: zstyle: command not found
+/home/tianjian/.zshrc: line 22: ${(s.:.)LS_COLORS}: bad substitution
+/home/tianjian/.zshrc: line 23: zstyle: command not found
+/home/tianjian/.zshrc: line 24: zstyle: command not found
+/home/tianjian/.zshrc: line 25: zstyle: command not found
+/home/tianjian/.zshrc: line 26: zstyle: command not found
+/home/tianjian/.zshrc: line 27: zstyle: command not found
+/home/tianjian/.zshrc: line 28: zstyle: command not found
+/home/tianjian/.zshrc: line 29: zstyle: command not found
+/home/tianjian/.zshrc: line 31: zstyle: command not found
+/home/tianjian/.zshrc: line 32: zstyle: command not found
+/home/tianjian/.zshrc: line 34: setopt: command not found
+/home/tianjian/.zshrc: line 35: setopt: command not found
+/home/tianjian/.zshrc: line 36: setopt: command not found
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    handle = entry.fake_impl.register(func_to_register, source)
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+RuntimeError: operator torchvision::nms does not exist
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+RuntimeError: operator torchvision::nms does not exist
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+srun: error: cr1-h200-p5en48xlarge-816: tasks 8-15: Exited with exit code 1
+srun: Terminating StepId=1976494.0
+srun: error: cr1-h200-p5en48xlarge-817: tasks 16-23: Exited with exit code 1
+srun: error: cr1-h200-p5en48xlarge-297: tasks 0-7: Exited with exit code 1
+slurmstepd: error: Prolog hung on node cr1-h200-p5en48xlarge-818
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 15, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup import setup_fairseq2 as setup_fairseq2
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/__init__.py", line 12, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/__init__.py", line 9, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.setup._cli._commands import setup_cli as setup_cli
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/setup/_cli/_commands.py", line 11, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.cli.commands.chatbot import RunChatbotHandler
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/cli/commands/chatbot.py", line 35, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/__init__.py", line 9, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.common._asset import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/common/_asset.py", line 22, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.recipes.config import CommonSection, get_config_section
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipes/config.py", line 21, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.recorders import (
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from fairseq2.metrics._aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/_aggregation.py", line 11, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 44, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image import FrechetInceptionDistance, PeakSignalNoiseRatio
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/__init__.py", line 7, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torcheval.metrics.image.fid import FrechetInceptionDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/image/fid.py", line 17, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import models
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 164, in <module>
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    def meta_nms(dets, scores, iou_threshold):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 828, in register
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/library.py", line 198, in _register_fake
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+    handle = entry.fake_impl.register(func_to_register, source)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_library/fake_impl.py", line 31, in register
+RuntimeError: operator torchvision::nms does not exist
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+RuntimeError: operator torchvision::nms does not exist
+srun: error: cr1-h200-p5en48xlarge-818: tasks 24-31: Exited with exit code 1

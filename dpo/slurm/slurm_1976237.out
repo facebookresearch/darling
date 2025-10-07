@@ -1,0 +1,13 @@
+no change     /home/tianjian/miniconda3/condabin/conda
+no change     /home/tianjian/miniconda3/bin/conda
+no change     /home/tianjian/miniconda3/bin/conda-env
+no change     /home/tianjian/miniconda3/bin/activate
+no change     /home/tianjian/miniconda3/bin/deactivate
+no change     /home/tianjian/miniconda3/etc/profile.d/conda.sh
+no change     /home/tianjian/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/tianjian/miniconda3/shell/condabin/Conda.psm1
+no change     /home/tianjian/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/tianjian/miniconda3/lib/python3.13/site-packages/xontrib/conda.xsh
+no change     /home/tianjian/miniconda3/etc/profile.d/conda.csh
+no change     /home/tianjian/.bashrc
+No action taken.

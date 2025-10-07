@@ -1,0 +1,6 @@
+slurmstepd: error: *** JOB 1420495 ON cr1-h200-p5en48xlarge-153 CANCELLED AT 2025-09-07T04:28:10 ***
+/var/spool/slurmd/job1420495/slurm_script: line 23: conda: command not found
+/var/spool/slurmd/job1420495/slurm_script: line 24: /fsx-ram/chuanyang/miniconda3/bin/activate: No such file or directory
+/var/spool/slurmd/job1420495/slurm_script: line 25: conda: command not found
+srun: error: Slurm job 1420495 has expired
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 1420495

@@ -1,0 +1,179 @@
+model:
+  compile_options:
+    _set_:
+      fullgraph: false
+      dynamic: null
+      mode: default
+      backend: inductor
+      backend_options: null
+  _set_:
+    name: llama3_3_70b_instruct
+    family: null
+    arch: null
+    config_overrides: null
+    path: null
+    mmap: false
+    compile: false
+dataset:
+  _set_:
+    name: divpo_rho_0.2
+    path: /checkpoint/ram/tianjian/divpo_0.2.jsonl
+    family: generic_preference
+    source_encode_mode: prompt
+    target_encode_mode: prompt_response
+    mask_source_tokens: true
+    min_seq_len: 1
+    max_seq_len: 1024
+    max_num_tokens: 1024
+    batch_size: 1
+    example_shuffle_window: 10000
+    batch_shuffle_window: 1000
+    num_prefetch: 4
+    extras: {}
+gang:
+  _set_:
+    tensor_parallel_size: 8
+    timeout: 15
+    high_priority: true
+trainer:
+  fsdp:
+    _set_:
+      version: v1
+      granularity: layer
+      hybrid: false
+      reshard_after_forward: true
+      fp32_reduce: true
+  grad_accumulation:
+    _set_:
+      num_batches: 8
+      no_sync: false
+  activation_checkpointing:
+    _set_:
+      mode: layerwise
+      every_nth_layer: 1
+  _set_:
+    dtype: bfloat16
+    data_parallelism: fsdp
+    mixed_precision: static
+    max_grad_norm: 1
+    fp16_loss_scale:
+    - 128.0
+    - 0.0001
+    gc_every_n_steps: null
+    grad_check: false
+    anomaly_detection: false
+criterion:
+  config:
+    reference_model:
+      compile_options:
+        _set_:
+          fullgraph: false
+          dynamic: null
+          mode: default
+          backend: inductor
+          backend_options: null
+      _set_:
+        name: llama3_3_70b_instruct
+        mmap: false
+        compile: false
+    _set_:
+      beta: 0.1
+      nll_scale: 0.0
+      nll_length_normalization: true
+      length_normalization: false
+  _set_:
+    name: dpo
+optimizer:
+  config:
+    _set_:
+      lr: 1e-7
+      betas:
+      - 0.9
+      - 0.95
+      eps: 1e-08
+      weight_decay: 0.1
+      amsgrad: false
+      maximize: false
+      capturable: false
+      differentiable: false
+      impl: auto
+  _set_:
+    name: adamw
+lr_scheduler:
+  config:
+    _set_:
+      cycle_len: null
+      num_warmup_steps: 30
+      cycle_mul: 1.0
+      lr_mul: 1.0
+      start_lr: 0.0
+      final_lr: null
+      final_lr_scale: null
+  _set_:
+    name: cosine_annealing
+regime:
+  _set_:
+    num_steps: 1000
+    num_data_epochs: 10000
+    validate_at_start: false
+    validate_after_n_steps: 0
+    validate_every_n_steps: null
+    validate_after_n_data_epochs: 0
+    validate_every_n_data_epochs: null
+    checkpoint_after_n_steps: 300
+    checkpoint_every_n_steps: 100
+    checkpoint_after_n_data_epochs: 0
+    checkpoint_every_n_data_epochs: null
+    save_model_only: true
+    save_as_hugging_face: true
+    keep_last_n_checkpoints: 5
+    keep_best_n_checkpoints: null
+    keep_checkpoint_every_n_steps: null
+    publish_metrics_after_n_steps: 0
+    publish_metrics_every_n_steps: 1
+    publish_metrics_after_n_data_epochs: 0
+    publish_metrics_every_n_data_epochs: null
+common:
+  torch:
+    _set_:
+      num_threads: null
+      allow_tf32: true
+      fp16_reduced_precision: true
+      bf16_reduced_precision: true
+      default_sdpa: torch_math
+      compiled_region_activation_memory_budget: 1.0
+  metric_recorders:
+    log:
+      _set_:
+        enabled: true
+    jsonl:
+      _set_:
+        enabled: true
+    tensorboard:
+      _set_:
+        enabled: true
+    wandb:
+      _set_:
+        enabled: false
+        entity: null
+        project: null
+        run_id: auto
+        run_name: null
+        group: null
+        job_type: null
+        resume_mode: allow
+  profilers:
+    torch:
+      _set_:
+        enabled: false
+        skip_n_steps: 4
+        wait_n_steps: 0
+        num_warmup_steps: 1
+        num_active_steps: 4
+        repeat: 1
+  assets:
+    _set_:
+      extra_path: null
+      checkpoint_dir: null
+  _set_:
+    seed: 2

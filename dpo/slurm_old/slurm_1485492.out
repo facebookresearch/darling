@@ -1,0 +1,4 @@
+NCCL version 2.21.5+cuda12.4
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mrlhi_0723_preference_pairs_0723_2131_synthetic_N1_LR1e-7_FLR1e-17_BT0.1_WP30_EPS1e-8[0m at: [34mhttps://fairwandb.org/chuanyang/rlhi_0723/runs/3xm3oa6s[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../../checkpoint/ram/chuanyang/dpo/rlhi_0723_preference_pairs_0723_2131_synthetic_N1_LR1e-7_FLR1e-17_BT0.1_WP30_EPS1e-8/wandb/run-20250724_052847-3xm3oa6s/logs[0m

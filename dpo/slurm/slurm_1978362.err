@@ -1,0 +1,1261 @@
+/home/tianjian/.zshrc: line 1: setopt: command not found
+/home/tianjian/.zshrc: line 5: bindkey: command not found
+/home/tianjian/.zshrc: line 13: autoload: command not found
+/home/tianjian/.zshrc: line 14: compinit: command not found
+/home/tianjian/.zshrc: line 16: zstyle: command not found
+/home/tianjian/.zshrc: line 17: zstyle: command not found
+/home/tianjian/.zshrc: line 18: zstyle: command not found
+/home/tianjian/.zshrc: line 19: zstyle: command not found
+/home/tianjian/.zshrc: line 20: zstyle: command not found
+/home/tianjian/.zshrc: line 22: ${(s.:.)LS_COLORS}: bad substitution
+/home/tianjian/.zshrc: line 23: zstyle: command not found
+/home/tianjian/.zshrc: line 24: zstyle: command not found
+/home/tianjian/.zshrc: line 25: zstyle: command not found
+/home/tianjian/.zshrc: line 26: zstyle: command not found
+/home/tianjian/.zshrc: line 27: zstyle: command not found
+/home/tianjian/.zshrc: line 28: zstyle: command not found
+/home/tianjian/.zshrc: line 29: zstyle: command not found
+/home/tianjian/.zshrc: line 31: zstyle: command not found
+/home/tianjian/.zshrc: line 32: zstyle: command not found
+/home/tianjian/.zshrc: line 34: setopt: command not found
+/home/tianjian/.zshrc: line 35: setopt: command not found
+/home/tianjian/.zshrc: line 36: setopt: command not found
+[09/22/25 05:02:40] INFO     fairseq2 - Log files are stored under              
+                             /checkpoint/ram/tianjian/divpo_ckpts/divpo_dpo_0.2_
+                             new_LR5e-7_FLR1e-15_BT0.1_WP30_EPS1e-8.            
+                    INFO     fairseq2 - Config:                                 
+                             {                                                  
+                                 'model': {                                     
+                                     'name': 'llama3_3_70b_instruct',           
+                                     'family': None,                            
+                                     'arch': None,                              
+                                     'config_overrides': None,                  
+                                     'path': None,                              
+                                     'mmap': False,                             
+                                     'compile': False,                          
+                                     'compile_options': {                       
+                                         'fullgraph': False,                    
+                                         'dynamic': None,                       
+                                         'mode': 'default',                     
+                                         'backend': 'inductor',                 
+                                         'backend_options': None                
+                                     }                                          
+                                 },                                             
+                                 'dataset': {                                   
+                                     'name': 'divpo_rho_0.3',                   
+                                     'path':                                    
+                             '/checkpoint/ram/tianjian/dpo_0.2_new.jsonl',      
+                                     'family': 'generic_preference',            
+                                     'source_encode_mode': 'prompt',            
+                                     'target_encode_mode': 'prompt_response',   
+                                     'mask_source_tokens': True,                
+                                     'min_seq_len': 1,                          
+                                     'max_seq_len': 1024,                       
+                                     'max_num_tokens': 1024,                    
+                                     'batch_size': 1,                           
+                                     'example_shuffle_window': 10000,           
+                                     'batch_shuffle_window': 1000,              
+                                     'num_prefetch': 4,                         
+                                     'extras': {},                              
+                                     'chat_mode': False                         
+                                 },                                             
+                                 'tokenizer': {'name': 'llama3_instruct'},      
+                                 'gang': {'tensor_parallel_size': 4, 'timeout': 
+                             15, 'high_priority': True},                        
+                                 'trainer': {                                   
+                                     'dtype': 'bfloat16',                       
+                                     'data_parallelism': 'fsdp',                
+                                     'fsdp': {                                  
+                                         'version': 'v1',                       
+                                         'granularity': 'layer',                
+                                         'hybrid': False,                       
+                                         'reshard_after_forward': True,         
+                                         'fp32_reduce': True                    
+                                     },                                         
+                                     'mixed_precision': 'static',               
+                                     'grad_accumulation': {'num_batches': 4,    
+                             'no_sync': False},                                 
+                                     'activation_checkpointing': {'mode':       
+                             'layerwise', 'every_nth_layer': 1},                
+                                     'max_grad_norm': 1,                        
+                                     'fp16_loss_scale': [128.0, 0.0001],        
+                                     'gc_every_n_steps': None,                  
+                                     'grad_check': False,                       
+                                     'anomaly_detection': False                 
+                                 },                                             
+                                 'criterion': {                                 
+                                     'name': 'dpo',                             
+                                     'config': {                                
+                                         'reference_model': {                   
+                                             'name': 'llama3_3_70b_instruct',   
+                                             'mmap': False,                     
+                                             'compile': False,                  
+                                             'compile_options': {               
+                                                 'fullgraph': False,            
+                                                 'dynamic': None,               
+                                                 'mode': 'default',             
+                                                 'backend': 'inductor',         
+                                                 'backend_options': None        
+                                             }                                  
+                                         },                                     
+                                         'beta': 0.1,                           
+                                         'nll_scale': 0.0,                      
+                                         'nll_length_normalization': True,      
+                                         'length_normalization': False          
+                                     }                                          
+                                 },                                             
+                                 'optimizer': {                                 
+                                     'name': 'adamw',                           
+                                     'config': {                                
+                                         'lr': 5e-07,                           
+                                         'betas': [0.9, 0.95],                  
+                                         'eps': 1e-08,                          
+                                         'weight_decay': 0.1,                   
+                                         'amsgrad': False,                      
+                                         'maximize': False,                     
+                                         'capturable': False,                   
+                                         'differentiable': False,               
+                                         'impl': 'auto'                         
+                                     }                                          
+                                 },                                             
+                                 'lr_scheduler': {                              
+                                     'name': 'cosine_annealing',                
+                                     'config': {                                
+                                         'cycle_len': None,                     
+                                         'num_warmup_steps': 30,                
+                                         'cycle_mul': 1.0,                      
+                                         'lr_mul': 1.0,                         
+                                         'start_lr': 0.0,                       
+                                         'final_lr': 1e-15,                     
+                                         'final_lr_scale': None                 
+                                     }                                          
+                                 },                                             
+                                 'regime': {                                    
+                                     'num_steps': 2000,                         
+                                     'num_data_epochs': 10000,                  
+                                     'validate_at_start': False,                
+                                     'validate_after_n_steps': 0,               
+                                     'validate_every_n_steps': None,            
+                                     'validate_after_n_data_epochs': 0,         
+                                     'validate_every_n_data_epochs': None,      
+                                     'checkpoint_after_n_steps': 0,             
+                                     'checkpoint_every_n_steps': 50,            
+                                     'checkpoint_after_n_data_epochs': 0,       
+                                     'checkpoint_every_n_data_epochs': None,    
+                                     'save_model_only': True,                   
+                                     'save_as_hugging_face': True,              
+                                     'keep_last_n_checkpoints': 2,              
+                                     'keep_best_n_checkpoints': None,           
+                                     'keep_checkpoint_every_n_steps': None,     
+                                     'publish_metrics_after_n_steps': 0,        
+                                     'publish_metrics_every_n_steps': 1,        
+                                     'publish_metrics_after_n_data_epochs': 0,  
+                                     'publish_metrics_every_n_data_epochs': None
+                                 },                                             
+                                 'common': {                                    
+                                     'torch': {                                 
+                                         'num_threads': None,                   
+                                         'allow_tf32': True,                    
+                                         'fp16_reduced_precision': True,        
+                                         'bf16_reduced_precision': True,        
+                                         'default_sdpa': 'torch_math',          
+                                         'compiled_region_activation_memory_budg
+                             et': 1.0                                           
+                                     },                                         
+                                     'metric_recorders': {                      
+                                         'log': {'enabled': True},              
+                                         'jsonl': {'enabled': True},            
+                                         'tensorboard': {'enabled': True},      
+                                         'wandb': {                             
+                                             'enabled': False,                  
+                                             'entity': None,                    
+                                             'project': None,                   
+                                             'run_id': 'auto',                  
+                                             'run_name': None,                  
+                                             'group': None,                     
+                                             'job_type': None,                  
+                                             'resume_mode': 'allow'             
+                                         }                                      
+                                     },                                         
+                                     'profilers': {                             
+                                         'torch': {                             
+                                             'enabled': False,                  
+                                             'skip_n_steps': 4,                 
+                                             'wait_n_steps': 0,                 
+                                             'num_warmup_steps': 1,             
+                                             'num_active_steps': 4,             
+                                             'repeat': 1                        
+                                         }                                      
+                                     },                                         
+                                     'assets': {'extra_path': None,             
+                             'checkpoint_dir': None},                           
+                                     'seed': 2                                  
+                                 }                                              
+                             }                                                  
+                    INFO     fairseq2 - Setting the number of threads used for  
+                             intra-op parallelism to 10.                        
+[09/22/25 05:02:41] INFO     fairseq2 - Default SDPA variant set to             
+                             'torch_math'.                                      
+[09/22/25 05:02:44] INFO     fairseq2 - Setting 'cuda:0' as the default device  
+                             of the process.                                    
+                    INFO     fairseq2 - Host - Name: cr1-h200-p5en48xlarge-139 |
+                             Platform:                                          
+                             Linux-6.8.0-1033-aws-x86_64-with-glibc2.35 | Linux 
+                             Distribution: Ubuntu 22.04.5 LTS | Number of CPUs: 
+                             10/192 (0,48,58-60,96,144,154-156) | Memory: 1.95  
+                             TiB                                                
+                    INFO     fairseq2 - Device - ID: cuda:0 | Name: NVIDIA H200 
+                             | Memory: 139.81 GiB | Number of SMs: 132 | Compute
+                             Capability: 9.0                                    
+                    INFO     fairseq2 - Software - Python: 3.10.14 | PyTorch:   
+                             2.6.0+cu124 | CUDA: 12.4 | NCCL: 2.21.5 | fairseq2:
+                             0.5.0.dev0 | fairseq2n:                            
+                             0.5.0.dev202508040151+g530716a.cu124 | Python      
+                             Environment: Conda                                 
+                             (/home/chuanyang/miniconda3/envs/fairseq2)         
+                    INFO     fairseq2 - Runtime Environment - Process ID:       
+                             3600971 | PyTorch Intraop Thread Count: 10         
+                    INFO     fairseq2 - Environment Variables -                 
+                             SLURM_GPUS_PER_NODE=8, SLURM_TRES_PER_TASK=cpu=10, 
+                             OMPI_MCA_plm_slurm_args=--external-launcher,       
+                             PRTE_MCA_plm_slurm_args=--external-launcher,       
+                             HYDRA_BOOTSTRAP=slurm,                             
+                             HYDRA_LAUNCHER_EXTRA_ARGS=--external-launcher,     
+                             I_MPI_HYDRA_BOOTSTRAP=slurm,                       
+                             I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS=--external-la
+                             uncher, SHELL=/bin/bash, SLURM_JOB_USER=tianjian,  
+                             SLURM_TASKS_PER_NODE=8(x4), SLURM_JOB_UID=694589,  
+                             gpt_4o=1f277d9b7010439c86802bcd7ba3f7aa,           
+                             gpt_4_1=29fbbfb0d29240e2b51705e83a3cc9fc,          
+                             SLURM_TASK_PID=3600971,                            
+                             CONDA_EXE=/home/tianjian/miniconda3/bin/conda,     
+                             SLURM_JOB_GPUS=0,1,2,3,4,5,6,7, SLURM_LOCALID=0,   
+                             SLURM_SUBMIT_DIR=/opt/hpcaas/.mounts/fs-072917c00f0
+                             1ae1ba/home/tianjian/darling/dpo,                  
+                             HOSTNAME=cr1-h200-p5en48xlarge-139,                
+                             SLURMD_NODENAME=cr1-h200-p5en48xlarge-139,         
+                             SLURM_JOB_START_TIME=1758517187,                   
+                             SSH_AUTH_SOCK=/tmp/ssh-XXXXPUWxK3/agent.258801,    
+                             CUDA_CACHE_PATH=/opt/dlami/nvme/tianjian/.nv/Comput
+                             eCache/, HISTTIMEFORMAT=%F %T ,                    
+                             SLURM_CLUSTER_NAME=fair-aws-h200-1,                
+                             SLURM_JOB_END_TIME=1758553187,                     
+                             FI_EFA_USE_HUGE_PAGE=0, SLURM_CPUS_ON_NODE=80,     
+                             o1_mini=084f02ae111248fda84bfef27cb3757d,          
+                             SLURM_JOB_CPUS_PER_NODE=80(x4),                    
+                             SLURM_GPUS_ON_NODE=8,                              
+                             PWD=/home/tianjian/darling/dpo,                    
+                             SLURM_GTIDS=0,1,2,3,4,5,6,7, LOGNAME=tianjian,     
+                             XDG_SESSION_TYPE=tty,                              
+                             CONDA_PREFIX=/home/chuanyang/miniconda3/envs/fairse
+                             q2,                                                
+                             AZURE_OPENAI_API_KEY=65934ea9be874916b4ed4fae7b865f
+                             03, SLURM_JOB_PARTITION=learn,                     
+                             MODULESHOME=/usr/share/modules, MANPATH=:,         
+                             SLURM_OOM_KILL_STEP=0, SLURM_JOB_NUM_NODES=4,      
+                             SLURM_OPEN_MODE=a, SLURM_JOBID=1978362,            
+                             SLURM_JOB_QOS=ram_high, MOTD_SHOWN=pam,            
+                             gpt_4_turbo=65934ea9be874916b4ed4fae7b865f03,      
+                             HOME=/home/tianjian, LANG=C.UTF-8, SLURM_PROCID=0, 
+                             CLUSTER_ID=fair-aws-h200-1,                        
+                             CONDA_PROMPT_MODIFIER=(fairseq2) , TMPDIR=/tmp,    
+                             LC_TERMINAL=iTerm2, SLURM_CPUS_PER_TASK=10,        
+                             SLURM_NTASKS=32,                                   
+                             SLURM_TOPOLOGY_ADDR=cr1-h200-p5en48xlarge-139,     
+                             SSH_CONNECTION=163.114.130.8 40041 10.200.233.191  
+                             22, SLURM_TOPOLOGY_ADDR_PATTERN=node,              
+                             CUDA_VISIBLE_DEVICES=0, LESSCLOSE=/usr/bin/lesspipe
+                             %s %s, XDG_SESSION_CLASS=user,                     
+                             SLURM_SCRIPT_CONTEXT=prolog_task,                  
+                             TERM=xterm-256color, LESSOPEN=| /usr/bin/lesspipe  
+                             %s, USER=tianjian,                                 
+                             SLURM_NODELIST=cr1-h200-p5en48xlarge-[139,163-165],
+                             ENVIRONMENT=BATCH, CONDA_SHLVL=2, LOADEDMODULES=,  
+                             LC_TERMINAL_VERSION=3.5.14, SLURM_JOB_ACCOUNT=ram, 
+                             SLURM_PRIO_PROCESS=0, SLURM_NPROCS=32, SHLVL=2,    
+                             SLURM_NNODES=4, XDG_SESSION_ID=11305,              
+                             SLURM_SUBMIT_HOST=submit-1,                        
+                             CONDA_PYTHON_EXE=/home/tianjian/miniconda3/bin/pyth
+                             on,                                                
+                             LD_LIBRARY_PATH=/usr/local/cuda-12.8/lib:/usr/local
+                             /cuda-12.8/lib64:/usr/local/cuda-12.8:/usr/local/cu
+                             da-12.8/targets/x86_64-linux/lib/:/usr/local/cuda-1
+                             2.8/extras/CUPTI/lib64:/opt/amazon/efa/lib:/opt/ama
+                             zon/openmpi/lib:/opt/amazon/ofi-nccl/lib/x86_64-lin
+                             ux-gnu:/usr/local/lib:/usr/lib:/usr/local/cuda-12.8
+                             /lib:/usr/local/cuda-12.8/lib64:/usr/local/cuda-12.
+                             8:/usr/local/cuda-12.8/targets/x86_64-linux/lib/:/u
+                             sr/local/cuda-12.8/extras/CUPTI/lib64:/opt/amazon/e
+                             fa/lib:/opt/amazon/openmpi/lib:/opt/amazon/ofi-nccl
+                             /lib/x86_64-linux-gnu:/usr/local/lib:/usr/lib:/usr/
+                             local/cuda-12.8/lib:/usr/local/cuda-12.8/lib64:/usr
+                             /local/cuda-12.8:/usr/local/cuda-12.8/targets/x86_6
+                             4-linux/lib/:/usr/local/cuda-12.8/extras/CUPTI/lib6
+                             4:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/opt/
+                             amazon/ofi-nccl/lib/x86_64-linux-gnu:/usr/local/lib
+                             :/usr/lib, XDG_RUNTIME_DIR=/run/user/694589,       
+                             SLURM_JOB_ID=1978362, SLURM_NODEID=0,              
+                             SSH_CLIENT=163.114.130.8 40041 22,                 
+                             CONDA_DEFAULT_ENV=fairseq2,                        
+                             o3=90679b494bad4e729238716195bced48,               
+                             XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/
+                             snapd/desktop,                                     
+                             SLURM_CONF=/opt/slurm/etc/slurm.conf,              
+                             PATH=/usr/local/cuda-12.8/bin:/usr/local/cuda-12.8/
+                             include:/usr/local/cuda-12.8/bin:/usr/local/cuda-12
+                             .8/include:/home/chuanyang/miniconda3/envs/fairseq2
+                             /bin:/home/tianjian/.local/bin:/home/tianjian/minic
+                             onda3/condabin:/opt/amazon/openmpi/bin:/opt/amazon/
+                             efa/bin:/opt/slurm/bin:/opt/slurm/sbin:/opt/aws/neu
+                             ron/bin:/usr/local/cuda-12.8/bin:/usr/local/cuda-12
+                             .8/include:/usr/local/sbin:/usr/local/bin:/usr/sbin
+                             :/usr/bin:/sbin:/bin:/snap/bin:/opt/slurm/bin:/opt/
+                             slurm/sbin, SLURM_JOB_NAME=[diversity]-divpo,      
+                             MODULEPATH=/opt/amazon/modules/modulefiles:/etc/env
+                             ironment-modules/modules:/usr/share/modules/version
+                             s:/usr/share/modules/$MODULE_VERSION/modulefiles:/u
+                             sr/share/modules/modulefiles,                      
+                             SLURM_NTASKS_PER_NODE=8,                           
+                             DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/694589
+                             /bus, SSH_TTY=/dev/pts/235,                        
+                             CONDA_PREFIX_1=/home/tianjian/miniconda3/envs/alpac
+                             aeval, SLURM_JOB_GID=694589,                       
+                             OLDPWD=/home/tianjian/darling,                     
+                             SLURM_JOB_NODELIST=cr1-h200-p5en48xlarge-[139,163-1
+                             65],                                               
+                             MODULES_CMD=/usr/lib/x86_64-linux-gnu/modulecmd.tcl
+                             , _=/opt/slurm/bin/srun, SLURM_MPI_TYPE=pmi2,      
+                             SRUN_DEBUG=3, SLURM_UMASK=0002,                    
+                             SLURM_DISTRIBUTION=block, SLURMD_DEBUG=2,          
+                             SLURM_STEP_ID=0, SLURM_STEPID=0,                   
+                             SLURM_STEP_NODELIST=cr1-h200-p5en48xlarge-[139,163-
+                             165], SLURM_STEP_NUM_NODES=4,                      
+                             SLURM_STEP_NUM_TASKS=32,                           
+                             SLURM_STEP_TASKS_PER_NODE=8(x4),                   
+                             SLURM_STEP_LAUNCHER_PORT=60384,                    
+                             SLURM_SRUN_COMM_PORT=60384,                        
+                             SLURM_SRUN_COMM_HOST=10.200.216.129,               
+                             SLURM_STEP_GPUS=0,1,2,3,4,5,6,7,                   
+                             SLURM_CPU_BIND=quiet,mask_cpu:0x000000001C010000000
+                             00001000000001C01000000000001,0x00000003E0000000000
+                             0000000000003E000000000000000,0x0000007C00000000000
+                             000000000007C0000000000000000,0x00000F8000000000000
+                             0000000000F800000000000000000,0x0001F00000000000000
+                             000000001F0000000000000000000,0x003E000000000000000
+                             00000003E00000000000000000000,0x07C0000000000000000
+                             0000007C000000000000000000000,0xF800000000000000000
+                             00000F80000000000000000000000,                     
+                             SLURM_CPU_BIND_LIST=0x000000001C0100000000000100000
+                             0001C01000000000001,0x00000003E00000000000000000000
+                             003E000000000000000,0x0000007C000000000000000000000
+                             07C0000000000000000,0x00000F80000000000000000000000
+                             F800000000000000000,0x0001F00000000000000000000001F
+                             0000000000000000000,0x003E00000000000000000000003E0
+                             0000000000000000000,0x07C00000000000000000000007C00
+                             0000000000000000000,0xF80000000000000000000000F8000
+                             0000000000000000000, SLURM_CPU_BIND_TYPE=mask_cpu:,
+                             SLURM_CPU_BIND_VERBOSE=quiet,                      
+                             SLURM_LAUNCH_NODE_IPADDR=10.200.216.129, PMI_FD=17,
+                             PMI_JOBID=1978362.0, PMI_RANK=0, PMI_SIZE=32,      
+                             _RJEM_MALLOC_CONF=dirty_decay_ms:500,muzzy_decay_ms
+                             :-1, RAY_CLIENT_MODE=0, NCCL_CUMEM_ENABLE=0,       
+                             PYTORCH_NVML_BASED_CUDA_CHECK=1,                   
+                             TORCHINDUCTOR_COMPILE_THREADS=1,                   
+                             TORCHINDUCTOR_CACHE_DIR=/tmp/torchinductor_tianjian
+                             , WORLD_SIZE=32, RANK=0, LOCAL_WORLD_SIZE=8,       
+                             LOCAL_RANK=0,                                      
+                             MASTER_ADDR=cr1-h200-p5en48xlarge-139,             
+                             MASTER_PORT=46402, TORCH_CPP_LOG_LEVEL=INFO,       
+                             NCCL_DEBUG=INFO,                                   
+                             NCCL_DEBUG_FILE=/checkpoint/ram/tianjian/divpo_ckpt
+                             s/divpo_dpo_0.2_new_LR5e-7_FLR1e-15_BT0.1_WP30_EPS1
+                             e-8/logs/nccl/rank_0.log,                          
+                             TORCH_SHOW_CPP_STACKTRACES=1,                      
+                             TRITON_CACHE_DIR=/checkpoint/ram/tianjian/divpo_ckp
+                             ts/divpo_dpo_0.2_new_LR5e-7_FLR1e-15_BT0.1_WP30_EPS
+                             1e-8/cache/triton/rank_0,                          
+                             PYTORCH_KERNEL_CACHE_PATH=/checkpoint/ram/tianjian/
+                             divpo_ckpts/divpo_dpo_0.2_new_LR5e-7_FLR1e-15_BT0.1
+                             _WP30_EPS1e-8/cache/torch/jit,                     
+                             CUDA_MODULE_LOADING=LAZY                           
+                    INFO     fairseq2 - Initializing the root gang.             
+[09/22/25 05:02:47] INFO     fairseq2 - Root gang initialized.                  
+                    INFO     fairseq2 - Initializing parallel gangs.            
+                    INFO     fairseq2 - Initializing data parallel gang with 8  
+                             process(es).                                       
+[09/22/25 05:02:51] INFO     fairseq2 - Data parallel gang initialized.         
+                    INFO     fairseq2 - Initializing tensor parallel gang with 4
+                             process(es).                                       
+                    INFO     fairseq2 - Tensor parallel gang initialized.       
+                    INFO     fairseq2 - Initializing pipeline parallel gang with
+                             1 process(es).                                     
+                    INFO     fairseq2 - Pipeline parallel gang initialized.     
+                    INFO     fairseq2 - Parallel gangs initialized.             
+                    INFO     fairseq2 - Performing a collective barrier call to 
+                             warm up gangs. This can take up to several minutes 
+                             depending on the topology.                         
+                    INFO     fairseq2 - Gangs warmed up.                        
+                    INFO     fairseq2 - Process Ranks - Data: 0 |               
+                             Data/Replicated: 0 | Data/Sharded: 0 | Tensor: 0 | 
+                             Pipeline: 0                                        
+                    INFO     fairseq2 - Model Config:                           
+                             LLaMAConfig(                                       
+                                 model_dim=8192,                                
+                                 max_seq_len=131072,                            
+                                 vocab_size=128256,                             
+                                 pad_idx=128004,                                
+                                 tied_embeddings=False,                         
+                                 num_layers=80,                                 
+                                 num_attn_heads=64,                             
+                                 num_key_value_heads=8,                         
+                                 ffn_inner_dim=32768,                           
+                                 ffn_inner_dim_scale=0.6666666666666666,        
+                                 ffn_inner_dim_multiplier=1.3,                  
+                                 ffn_inner_dim_multiple_of=4096,                
+                                 rope_theta=500000.0,                           
+                                 use_scaled_rope=True,                          
+                                 rope_scale=LLaMARoPEScaleConfig(               
+                                     factor=8.0,                                
+                                     frequency_factors=(1.0, 4.0),              
+                                     original_context_length=8192               
+                                 ),                                             
+                                 dropout_p=0.0,                                 
+                                 init_std=None,                                 
+                                 init_std_scale='layer',                        
+                                 shard_embed_dim=False,                         
+                                 hg_config_class='LlamaConfig',                 
+                                 hg_architecture='LlamaForCausalLM'             
+                             )                                                  
+                    INFO     fairseq2 - Loading 'llama3_3_70b_instruct' model on
+                             data parallel rank 0.                              
+
+
+
+
+[09/22/25 05:06:17] INFO     fairseq2 - Model loaded on data parallel rank 0.   
+                    INFO     fairseq2 - Wrapping the model with FSDP1 and       
+                             broadcasting to all processes.                     
+[09/22/25 05:06:18] INFO     fairseq2 - Model wrapped with FSDP1 and            
+                             broadcasted.                                       
+                    INFO     fairseq2 - Model (rank 0) - Parameter Size:        
+                             2,204,926,976 | Parameter Size (bytes): 8.21 GiB | 
+                             Trainable Parameter Size: 2,204,926,976 | Trainable
+                             Parameter Size (bytes): 8.21 GiB | Buffer Size:    
+                             16,777,344 | Buffer Size (bytes): 64.00 MiB | Total
+                             Size: 2,221,704,320 | Total Size (bytes): 8.28 GiB 
+                             FullyShardedDataParallel(                          
+                               (_fsdp_wrapped_module): TransformerLM(           
+                                 model_dim=8192, pad_idx=128004,                
+                             max_seq_len=131072                                 
+                                 (decoder_frontend):                            
+                             TransformerEmbeddingFrontend(                      
+                                   (embed): VocabShardedEmbedding(rank=0,       
+                             world_size=4, num_embeddings=128256,               
+                             sharded_num_embeddings=32064, embed_dim=8192,      
+                             pad_idx=128004, init_fn=init_embed)                
+                                   (pos_encoder): None                          
+                                   (dropout): None                              
+                                 )                                              
+                                 (decoder): StandardTransformerLMDecoder(       
+                                   (layers): ModuleList(                        
+                                     (0-79): 80 x FullyShardedDataParallel(     
+                                       (_fsdp_wrapped_module):                  
+                             CheckpointWrapper(                                 
+                                         (_checkpoint_wrapped_module):          
+                             StandardTransformerLMDecoderLayer(                 
+                                           norm_order=PRE                       
+                                           (self_attn_layer_norm):              
+                             RMSNorm(normalized_shape=(8192,), eps=1E-05,       
+                             elementwise_affine=True)                           
+                                           (self_attn):                         
+                             StandardMultiheadAttention(                        
+                                             num_heads=64,                      
+                             num_key_value_heads=8, num_query_groups=8          
+                                             (q_proj):                          
+                             ColumnShardedLinear(rank=0, world_size=4,          
+                             input_dim=8192, output_dim=2048,                   
+                             gather_output=False, bias=False,                   
+                             init_fn=init_projection)                           
+                                             (k_proj):                          
+                             ColumnShardedLinear(rank=0, world_size=4,          
+                             input_dim=8192, output_dim=256,                    
+                             gather_output=False, bias=False,                   
+                             init_fn=init_projection)                           
+                                             (v_proj):                          
+                             ColumnShardedLinear(rank=0, world_size=4,          
+                             input_dim=8192, output_dim=256,                    
+                             gather_output=False, bias=False,                   
+                             init_fn=init_projection)                           
+                                             (q_norm): None                     
+                                             (k_norm): None                     
+                                             (pos_encoder):                     
+                             RotaryEncoder(encoding_dim=128, max_seq_len=131072,
+                             theta=500000.0, freqs_init_fn=init_rope_freqs)     
+                                             (sdpa):                            
+                             TorchSDPA(bias=CausalAttentionBias(), dropout_p=0) 
+                                             (output_proj):                     
+                             RowShardedLinear(rank=0, world_size=4,             
+                             input_dim=2048, scatter_input=False,               
+                             output_dim=8192, bias=False,                       
+                             init_fn=init_projection)                           
+                                           )                                    
+                                           (self_attn_dropout): None            
+                                           (self_attn_residual):                
+                             AdditiveResidualConnect()                          
+                                           (ffn_layer_norm):                    
+                             RMSNorm(normalized_shape=(8192,), eps=1E-05,       
+                             elementwise_affine=True)                           
+                                           (ffn): GLUFeedForwardNetwork(        
+                                             inner_dim_scale=0.666667,          
+                             inner_dim_to_multiple=4096                         
+                                             (gate_proj):                       
+                             ColumnShardedLinear(rank=0, world_size=4,          
+                             input_dim=8192, output_dim=7168,                   
+                             gather_output=False, bias=False,                   
+                             init_fn=init_projection)                           
+                                             (gate_activation): SiLU()          
+                                             (inner_proj):                      
+                             ColumnShardedLinear(rank=0, world_size=4,          
+                             input_dim=8192, output_dim=7168,                   
+                             gather_output=False, bias=False,                   
+                             init_fn=init_projection)                           
+                                             (inner_dropout): None              
+                                             (output_proj):                     
+                             RowShardedLinear(rank=0, world_size=4,             
+                             input_dim=7168, scatter_input=False,               
+                             output_dim=8192, bias=False,                       
+                             init_fn=init_projection)                           
+                                           )                                    
+                                           (ffn_dropout): None                  
+                                           (ffn_residual):                      
+                             AdditiveResidualConnect()                          
+                                         )                                      
+                                       )                                        
+                                     )                                          
+                                   )                                            
+                                   (layer_norm):                                
+                             RMSNorm(normalized_shape=(8192,), eps=1E-05,       
+                             elementwise_affine=True)                           
+                                   (dropout): None                              
+                                 )                                              
+                                 (final_proj): ColumnShardedLinear(rank=0,      
+                             world_size=4, input_dim=8192, output_dim=128256,   
+                             gather_output=True, bias=False,                    
+                             init_fn=init_projection)                           
+                               )                                                
+                             )                                                  
+                    INFO     fairseq2 - Loading the dataset.                    
+                    INFO     fairseq2 - Dataset loaded.                         
+                    INFO     fairseq2 - Loading 'llama3_instruct' tokenizer.    
+[09/22/25 05:06:19] INFO     fairseq2 - Tokenizer loaded.                       
+                    INFO     fairseq2 - Tokenizer - Size: 128,256 | UNK: None | 
+                             BOS: 128000 | EOS: 128009 | PAD: 128004 | BOH:     
+                             128006 | EOH: 128007                               
+                    INFO     fairseq2 - Setting up DPO with reference model.    
+                    INFO     fairseq2 - Loading 'llama3_3_70b_instruct' model on
+                             data parallel rank 0.                              
+
+
+
+
+[09/22/25 05:08:02] INFO     fairseq2 - Model loaded on data parallel rank 0.   
+                    INFO     fairseq2 - Broadcasting 'llama3_3_70b_instruct'    
+                             model to all processes.                            
+[09/22/25 05:08:03] INFO     fairseq2 - Model broadcasted.                      
+                    INFO     fairseq2 - Model (rank 0) - Parameter Size:        
+                             17,639,415,808 | Parameter Size (bytes): 32.86 GiB 
+                             | Trainable Parameter Size: 17,639,415,808 |       
+                             Trainable Parameter Size (bytes): 32.86 GiB |      
+                             Buffer Size: 16,777,344 | Buffer Size (bytes):     
+                             64.00 MiB | Total Size: 17,656,193,152 | Total Size
+                             (bytes): 32.92 GiB                                 
+                             TransformerLM(                                     
+                               model_dim=8192, pad_idx=128004,                  
+                             max_seq_len=131072                                 
+                               (decoder_frontend): TransformerEmbeddingFrontend(
+                                 (embed): VocabShardedEmbedding(rank=0,         
+                             world_size=4, num_embeddings=128256,               
+                             sharded_num_embeddings=32064, embed_dim=8192,      
+                             pad_idx=128004, init_fn=init_embed)                
+                                 (pos_encoder): None                            
+                                 (dropout): None                                
+                               )                                                
+                               (decoder): StandardTransformerLMDecoder(         
+                                 (layers): ModuleList(                          
+                                   (0-79): 80 x                                 
+                             StandardTransformerLMDecoderLayer(                 
+                                     norm_order=PRE                             
+                                     (self_attn_layer_norm):                    
+                             RMSNorm(normalized_shape=(8192,), eps=1E-05,       
+                             elementwise_affine=True)                           
+                                     (self_attn): StandardMultiheadAttention(   
+                                       num_heads=64, num_key_value_heads=8,     
+                             num_query_groups=8                                 
+                                       (q_proj): ColumnShardedLinear(rank=0,    
+                             world_size=4, input_dim=8192, output_dim=2048,     
+                             gather_output=False, bias=False,                   
+                             init_fn=init_projection)                           
+                                       (k_proj): ColumnShardedLinear(rank=0,    
+                             world_size=4, input_dim=8192, output_dim=256,      
+                             gather_output=False, bias=False,                   
+                             init_fn=init_projection)                           
+                                       (v_proj): ColumnShardedLinear(rank=0,    
+                             world_size=4, input_dim=8192, output_dim=256,      
+                             gather_output=False, bias=False,                   
+                             init_fn=init_projection)                           
+                                       (q_norm): None                           
+                                       (k_norm): None                           
+                                       (pos_encoder):                           
+                             RotaryEncoder(encoding_dim=128, max_seq_len=131072,
+                             theta=500000.0, freqs_init_fn=init_rope_freqs)     
+                                       (sdpa):                                  
+                             TorchSDPA(bias=CausalAttentionBias(), dropout_p=0) 
+                                       (output_proj): RowShardedLinear(rank=0,  
+                             world_size=4, input_dim=2048, scatter_input=False, 
+                             output_dim=8192, bias=False,                       
+                             init_fn=init_projection)                           
+                                     )                                          
+                                     (self_attn_dropout): None                  
+                                     (self_attn_residual):                      
+                             AdditiveResidualConnect()                          
+                                     (ffn_layer_norm):                          
+                             RMSNorm(normalized_shape=(8192,), eps=1E-05,       
+                             elementwise_affine=True)                           
+                                     (ffn): GLUFeedForwardNetwork(              
+                                       inner_dim_scale=0.666667,                
+                             inner_dim_to_multiple=4096                         
+                                       (gate_proj): ColumnShardedLinear(rank=0, 
+                             world_size=4, input_dim=8192, output_dim=7168,     
+                             gather_output=False, bias=False,                   
+                             init_fn=init_projection)                           
+                                       (gate_activation): SiLU()                
+                                       (inner_proj): ColumnShardedLinear(rank=0,
+                             world_size=4, input_dim=8192, output_dim=7168,     
+                             gather_output=False, bias=False,                   
+                             init_fn=init_projection)                           
+                                       (inner_dropout): None                    
+                                       (output_proj): RowShardedLinear(rank=0,  
+                             world_size=4, input_dim=7168, scatter_input=False, 
+                             output_dim=8192, bias=False,                       
+                             init_fn=init_projection)                           
+                                     )                                          
+                                     (ffn_dropout): None                        
+                                     (ffn_residual): AdditiveResidualConnect()  
+                                   )                                            
+                                 )                                              
+                                 (layer_norm): RMSNorm(normalized_shape=(8192,),
+                             eps=1E-05, elementwise_affine=True)                
+                                 (dropout): None                                
+                               )                                                
+                               (final_proj): ColumnShardedLinear(rank=0,        
+                             world_size=4, input_dim=8192, output_dim=128256,   
+                             gather_output=True, bias=False,                    
+                             init_fn=init_projection)                           
+                             )                                                  
+                    INFO     fairseq2 - DPO setup complete.                     
+                    INFO     fairseq2 - Running on 32 process(es).              
+[09/22/25 05:08:19] INFO     fairseq2 - Train Metrics (step 1) - DPO Loss:      
+                             0.705688 | Chosen Sequence Log Probabilities:      
+                             -192.875 | Rejected Sequence Log Probabilities:    
+                             -61.9143 | Chosen Sequence Length: 455.344 |       
+                             Rejected Sequence Length: 365.719 | NLL Loss:      
+                             0.423533 | Gradient Norm: 42.9862 | Data Epoch: 1 |
+                             Data Time: 3s | Compute Time: 12s | Lapse Time: 16s
+                             | Total Time: 339s | Wall Time: 339s | Learning    
+                             Rate: 0 | Batch Size: 32 | Elements per Batch:     
+                             16,526 | Elements per Second: 1,045 | Number of    
+                             Examples: 32 | Number of Elements: 16,526 | Number 
+                             of Target Elements: 14,571 | Padding: 0 | Padding  
+                             Ratio (%): 0% | Total Number of Examples: 32 |     
+                             Total Number of Elements: 16,526 | Total Number of 
+                             Target Elements: 14,571 | Peak Active Device       
+                             Memory: 118.37 GiB | Peak Active Device Memory (%):
+                             85% | Peak Reserved Device Memory: 132.39 GiB |    
+                             Peak Reserved Device Memory (%): 95%               
+
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 1] Process group watchdog thread terminated with exception: [Rank 1] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9144, OpType=ALLREDUCE, NumelIn=6684672, NumelOut=6684672, Timeout(ms)=600000) ran for 600091 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x79fba856c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x79fb56c29c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x79fb56c2b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x79fb56c2c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x79fba8d7a5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x79fba9894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x79fba9926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x79fba856c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x79fb568876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x79fba8d7a5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x79fba9894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x79fba9926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 2] Process group watchdog thread terminated with exception: [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9144, OpType=ALLREDUCE, NumelIn=6684672, NumelOut=6684672, Timeout(ms)=600000) ran for 600018 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x795a6616c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x795a14429c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x795a1442b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x795a1442c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x795a666225c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x795a67094ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x795a67126850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x795a6616c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x795a140876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x795a666225c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x795a67094ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x795a67126850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 1] Process group watchdog thread terminated with exception: [Rank 3] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=3588096, NumelOut=3588096, Timeout(ms)=600000) ran for 600090 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7922b476c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x792262a29c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x792262a2b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x792262a2c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7922b4c515c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7922b5694ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7922b5726850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7922b476c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7922626876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7922b4c515c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7922b5694ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7922b5726850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 1] Process group watchdog thread terminated with exception: [Rank 4] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=3981312, NumelOut=3981312, Timeout(ms)=600000) ran for 600099 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7d5822d6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7d57d1429c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7d57d142b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7d57d142c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7d58231ee5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7d5823e94ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7d5823f26850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7d5822d6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7d57d10876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7d58231ee5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7d5823e94ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7d5823f26850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 2] Process group watchdog thread terminated with exception: [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=2719744, NumelOut=2719744, Timeout(ms)=600000) ran for 600022 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x779f7376c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x779f21e29c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x779f21e2b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x779f21e2c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x779f73f0e5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x779f74894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x779f74926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x779f7376c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x779f21a876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x779f73f0e5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x779f74894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x779f74926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 1] Process group watchdog thread terminated with exception: [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=2719744, NumelOut=2719744, Timeout(ms)=600000) ran for 600043 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7263cd56c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x72637bc29c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x72637bc2b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x72637bc2c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7263cdcce5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7263ce694ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7263ce726850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7263cd56c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x72637b8876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7263cdcce5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7263ce694ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7263ce726850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 2] Process group watchdog thread terminated with exception: [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=3137536, NumelOut=3137536, Timeout(ms)=600000) ran for 600023 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7725c696c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x772574c29c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x772574c2b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x772574c2c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7725c6dce5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7725c7894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7725c7926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7725c696c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7725748876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7725c6dce5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7725c7894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7725c7926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 2] Process group watchdog thread terminated with exception: [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=3981312, NumelOut=3981312, Timeout(ms)=600000) ran for 600023 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7635ba96c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x763569029c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x76356902b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x76356902c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7635bb1805c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7635bbc94ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7635bbd26850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7635ba96c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x763568c876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7635bb1805c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7635bbc94ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7635bbd26850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 2] Process group watchdog thread terminated with exception: [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=6348800, NumelOut=6348800, Timeout(ms)=600000) ran for 600031 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7869c516c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x786973429c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x78697342b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x78697342c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7869c56425c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7869c6094ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7869c6126850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7869c516c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7869730876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7869c56425c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7869c6094ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7869c6126850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 1] Process group watchdog thread terminated with exception: [Rank 1] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=6348800, NumelOut=6348800, Timeout(ms)=600000) ran for 600099 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x708f2e16c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x708edc429c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x708edc42b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x708edc42c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x708f2e5d65c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x708f2f094ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x708f2f126850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x708f2e16c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x708edc0876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x708f2e5d65c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x708f2f094ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x708f2f126850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 1] Process group watchdog thread terminated with exception: [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=3137536, NumelOut=3137536, Timeout(ms)=600000) ran for 600016 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7a6fcab6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7a6f78e29c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7a6f78e2b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7a6f78e2c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7a6fcb0055c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7a6fcba94ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7a6fcbb26850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7a6fcab6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7a6f78a876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7a6fcb0055c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7a6fcba94ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7a6fcbb26850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 0] Process group watchdog thread terminated with exception: [Rank 7] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=974848, NumelOut=974848, Timeout(ms)=600000) ran for 600072 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7c122dd6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7c11dc429c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7c11dc42b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7c11dc42c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7c122e5495c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7c122ee94ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7c122ef26850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7c122dd6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7c11dc0876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7c122e5495c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7c122ee94ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7c122ef26850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 0] Process group watchdog thread terminated with exception: [Rank 0] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=3751936, NumelOut=3751936, Timeout(ms)=600000) ran for 600025 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7fe51076c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7fe4bee29c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7fe4bee2b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7fe4bee2c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7fe510bee5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7fe511894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7fe511926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7fe51076c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7fe4bea876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7fe510bee5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7fe511894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7fe511926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 2] Process group watchdog thread terminated with exception: [Rank 6] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=3751936, NumelOut=3751936, Timeout(ms)=600000) ran for 600047 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x707af076c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x707a9ea29c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x707a9ea2b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x707a9ea2c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x707af0bc85c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x707af1694ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x707af1726850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x707af076c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x707a9e6876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x707af0bc85c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x707af1694ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x707af1726850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 0] Process group watchdog thread terminated with exception: [Rank 3] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=3588096, NumelOut=3588096, Timeout(ms)=600000) ran for 600022 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f880c56c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7f87ba829c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7f87ba82b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7f87ba82c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7f880c9b15c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7f880d494ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7f880d526850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f880c56c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7f87ba4876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7f880c9b15c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7f880d494ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7f880d526850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 0] Process group watchdog thread terminated with exception: [Rank 0] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=3137536, NumelOut=3137536, Timeout(ms)=600000) ran for 600003 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x76f51856c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x76f4c6829c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x76f4c682b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x76f4c682c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x76f518a875c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x76f519494ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x76f519526850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x76f51856c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x76f4c64876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x76f518a875c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x76f519494ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x76f519526850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 1 PG GUID 1(dp) Rank 3] Process group watchdog thread terminated with exception: [Rank 3] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=2134, OpType=_ALLGATHER_BASE, NumelIn=26740736, NumelOut=213925888, Timeout(ms)=600000) ran for 600024 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7d43f756c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7d43a5829c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7d43a582b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7d43a582c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7d43f7a485c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7d43f8494ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7d43f8526850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7d43f756c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7d43a54876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7d43f7a485c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7d43f8494ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7d43f8526850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 1 PG GUID 1(dp) Rank 2] Process group watchdog thread terminated with exception: [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=2134, OpType=_ALLGATHER_BASE, NumelIn=26740736, NumelOut=213925888, Timeout(ms)=600000) ran for 600015 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x757f79f6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x757f28629c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x757f2862b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x757f2862c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x757f7a77a5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x757f7b294ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x757f7b326850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x757f79f6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x757f282876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x757f7a77a5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x757f7b294ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x757f7b326850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 0] Process group watchdog thread terminated with exception: [Rank 4] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=3981312, NumelOut=3981312, Timeout(ms)=600000) ran for 600040 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7e5df776c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7e5da5e29c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7e5da5e2b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7e5da5e2c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7e5df7bee5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7e5df8894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7e5df8926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7e5df776c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7e5da5a876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7e5df7bee5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7e5df8894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7e5df8926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 0] Process group watchdog thread terminated with exception: [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=2719744, NumelOut=2719744, Timeout(ms)=600000) ran for 600047 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7b2fdbd6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7b2f8a029c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7b2f8a02b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7b2f8a02c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7b2fdc2735c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7b2fdcc94ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7b2fdcd26850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7b2fdbd6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7b2f89c876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7b2fdc2735c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7b2fdcc94ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7b2fdcd26850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 3] Process group watchdog thread terminated with exception: [Rank 7] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=974848, NumelOut=974848, Timeout(ms)=600000) ran for 600084 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7e2325f6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7e22d4629c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7e22d462b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7e22d462c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7e23266ca5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7e2327094ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7e2327126850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7e2325f6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7e22d42876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7e23266ca5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7e2327094ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7e2327126850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 1] Process group watchdog thread terminated with exception: [Rank 7] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=974848, NumelOut=974848, Timeout(ms)=600000) ran for 600064 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7d501396c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7d4fc1c29c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7d4fc1c2b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7d4fc1c2c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7d5013d9b5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7d5014894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7d5014926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7d501396c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7d4fc18876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7d5013d9b5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7d5014894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7d5014926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 0] Process group watchdog thread terminated with exception: [Rank 0] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=6348800, NumelOut=6348800, Timeout(ms)=600000) ran for 600029 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7afa8976c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7afa37e29c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7afa37e2b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7afa37e2c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7afa89eff5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7afa8a894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7afa8a926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7afa8976c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7afa37a876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7afa89eff5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7afa8a894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7afa8a926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 2] Process group watchdog thread terminated with exception: [Rank 7] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=974848, NumelOut=974848, Timeout(ms)=600000) ran for 600065 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x738dc136c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x738d6f629c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x738d6f62b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x738d6f62c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x738dc17df5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x738dc2294ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x738dc2326850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x738dc136c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x738d6f2876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x738dc17df5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x738dc2294ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x738dc2326850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 3] Process group watchdog thread terminated with exception: [Rank 3] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=3981312, NumelOut=3981312, Timeout(ms)=600000) ran for 600048 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7bf87b76c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7bf829a29c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7bf829a2b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7bf829a2c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7bf87bc365c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7bf87c694ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7bf87c726850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7bf87b76c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7bf8296876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7bf87bc365c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7bf87c694ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7bf87c726850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 3] Process group watchdog thread terminated with exception: [Rank 6] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=3751936, NumelOut=3751936, Timeout(ms)=600000) ran for 600073 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7c270476c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7c26b2e29c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7c26b2e2b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7c26b2e2c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7c2704f0e5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7c2705894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7c2705926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7c270476c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7c26b2a876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7c2704f0e5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7c2705894ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7c2705926850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 1] Process group watchdog thread terminated with exception: [Rank 1] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9150, OpType=ALLREDUCE, NumelIn=3751936, NumelOut=3751936, Timeout(ms)=600000) ran for 600047 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x776fa316c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x776f51429c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x776f5142b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x776f5142c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x776fa362e5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x776fa4094ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x776fa4126850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x776fa316c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x776f510876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x776fa362e5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x776fa4094ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x776fa4126850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 2 PG GUID 2(tp) Rank 0] Process group watchdog thread terminated with exception: [Rank 0] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=9144, OpType=ALLREDUCE, NumelIn=6684672, NumelOut=6684672, Timeout(ms)=600000) ran for 600069 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7fd3e4f6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x7fd393629c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x7fd39362b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7fd39362c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7fd3e57575c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7fd3e6294ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7fd3e6326850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7fd3e4f6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7fd3932876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7fd3e57575c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7fd3e6294ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7fd3e6326850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 0 PG GUID 0(default_pg) Rank 14] Future for ProcessGroup abort timed out after 600000 ms
+Exception raised from waitForFutureOrTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1348 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x728ff276c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5ab54 (0x728fa0a85b54 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::abort() + 0x222 (0x728fa0e27092 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::~ProcessGroupNCCL() + 0xa5 (0x728fa0e272e5 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::~ProcessGroupNCCL() + 0x9 (0x728fa0e278d9 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: <unknown function> + 0x62c1c95 (0x728fdb094c95 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: <unknown function> + 0xe530c8 (0x728feace20c8 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #7: <unknown function> + 0xe5312c (0x728feace212c in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x516907 (0x728fea3a5907 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x5174d1 (0x728fea3a64d1 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #10: <unknown function> + 0x131156 (0x5e3c8ca9d156 in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+frame #11: <unknown function> + 0x153c24 (0x5e3c8cabfc24 in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+frame #12: <unknown function> + 0x125caf (0x5e3c8ca91caf in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+frame #13: _PyModule_ClearDict + 0xc7 (0x5e3c8cb0d247 in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+frame #14: <unknown function> + 0x2089b7 (0x5e3c8cb749b7 in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+frame #15: Py_FinalizeEx + 0x146 (0x5e3c8cb73936 in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+frame #16: Py_Exit + 0x8 (0x5e3c8cb74448 in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+frame #17: <unknown function> + 0x205cbb (0x5e3c8cb71cbb in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+frame #18: PyErr_PrintEx + 0x11 (0x5e3c8cb71b91 in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+frame #19: <unknown function> + 0x99eaa (0x5e3c8ca05eaa in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+frame #20: _PyRun_AnyFileObject + 0x44 (0x5e3c8cb69594 in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+frame #21: Py_RunMain + 0x38b (0x5e3c8cb6678b in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+frame #22: Py_BytesMain + 0x37 (0x5e3c8cb371f7 in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+frame #23: <unknown function> + 0x29d90 (0x728ff3829d90 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #24: __libc_start_main + 0x80 (0x728ff3829e40 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #25: <unknown function> + 0x1cb0f1 (0x5e3c8cb370f1 in /home/chuanyang/envs/fairseq/conda/bin/python3.10)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 1 PG GUID 1(dp) Rank 5] Process group watchdog thread terminated with exception: [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=2134, OpType=_ALLGATHER_BASE, NumelIn=26740736, NumelOut=213925888, Timeout(ms)=600000) ran for 600073 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:632 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7671a9f6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x2b4 (0x767158629c74 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x890 (0x76715862b7d0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x76715862c6ed in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7671aa3ee5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x94ac3 (0x7671ab094ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0x126850 (0x7671ab126850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1901 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7671a9f6c1b6 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe5c6fc (0x7671582876fc in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7671aa3ee5c0 in /home/chuanyang/envs/fairseq/conda/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x94ac3 (0x7671ab094ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #4: <unknown function> + 0x126850 (0x7671ab126850 in /lib/x86_64-linux-gnu/libc.so.6)
+
+srun: error: cr1-h200-p5en48xlarge-139: task 2: Aborted (core dumped)
+srun: Terminating StepId=1978362.0
+slurmstepd: error: *** STEP 1978362.0 ON cr1-h200-p5en48xlarge-139 CANCELLED AT 2025-09-22T05:18:32 ***
+srun: error: cr1-h200-p5en48xlarge-139: task 1: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-163: task 9: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-165: tasks 24,28: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-164: task 18: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-163: task 15: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-164: tasks 20-21: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-139: task 6: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-165: task 26: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-164: task 17: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-163: task 13: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-139: task 5: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-164: task 22: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-163: task 10: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-164: task 16: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-165: task 27: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-139: task 4: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-163: task 8: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-163: task 12: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-165: task 29: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-163: task 11: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-164: task 19: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-165: task 31: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-164: task 23: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-165: task 30: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-139: task 0: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-165: task 25: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-163: task 14: Aborted (core dumped)
+srun: error: cr1-h200-p5en48xlarge-139: task 7: Terminated
+srun: error: cr1-h200-p5en48xlarge-139: task 3: Terminated
+srun: Force Terminated StepId=1978362.0

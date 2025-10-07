@@ -1,0 +1,331 @@
+/home/tianjian/.zshrc: line 1: setopt: command not found
+/home/tianjian/.zshrc: line 5: bindkey: command not found
+/home/tianjian/.zshrc: line 13: autoload: command not found
+/home/tianjian/.zshrc: line 14: compinit: command not found
+/home/tianjian/.zshrc: line 16: zstyle: command not found
+/home/tianjian/.zshrc: line 17: zstyle: command not found
+/home/tianjian/.zshrc: line 18: zstyle: command not found
+/home/tianjian/.zshrc: line 19: zstyle: command not found
+/home/tianjian/.zshrc: line 20: zstyle: command not found
+/home/tianjian/.zshrc: line 22: ${(s.:.)LS_COLORS}: bad substitution
+/home/tianjian/.zshrc: line 23: zstyle: command not found
+/home/tianjian/.zshrc: line 24: zstyle: command not found
+/home/tianjian/.zshrc: line 25: zstyle: command not found
+/home/tianjian/.zshrc: line 26: zstyle: command not found
+/home/tianjian/.zshrc: line 27: zstyle: command not found
+/home/tianjian/.zshrc: line 28: zstyle: command not found
+/home/tianjian/.zshrc: line 29: zstyle: command not found
+/home/tianjian/.zshrc: line 31: zstyle: command not found
+/home/tianjian/.zshrc: line 32: zstyle: command not found
+/home/tianjian/.zshrc: line 34: setopt: command not found
+/home/tianjian/.zshrc: line 35: setopt: command not found
+/home/tianjian/.zshrc: line 36: setopt: command not found
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.metrics import MetricBag, sync_and_compute_metrics
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics import MetricBag, sync_and_compute_metrics
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics import MetricBag, sync_and_compute_metrics
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+    from fairseq2.metrics import MetricBag, sync_and_compute_metrics
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.aggregation import Max as Max
+    from fairseq2.metrics.aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/aggregation.py", line 10, in <module>
+    from fairseq2.metrics.aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/aggregation.py", line 10, in <module>
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/aggregation.py", line 10, in <module>
+    from fairseq2.metrics import MetricBag, sync_and_compute_metrics
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics import MetricBag, sync_and_compute_metrics
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/aggregation.py", line 10, in <module>
+    from fairseq2.metrics import MetricBag, sync_and_compute_metrics
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics import MetricBag, sync_and_compute_metrics
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/aggregation.py", line 10, in <module>
+    from fairseq2.metrics.aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/aggregation.py", line 10, in <module>
+    from fairseq2.metrics.aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/aggregation.py", line 10, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 9, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 9, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 9, in <module>
+    from fairseq2.metrics.aggregation import Max as Max
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/metrics/aggregation.py", line 10, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 9, in <module>
+    from torcheval.metrics.audio import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/__init__.py", line 7, in <module>
+    from torcheval.metrics.audio import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/__init__.py", line 7, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 9, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 9, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 9, in <module>
+    from torcheval.metrics import Max as MaxBase
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/__init__.py", line 9, in <module>
+    from torcheval.metrics.audio import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/__init__.py", line 7, in <module>
+    from torcheval.metrics.audio import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/__init__.py", line 7, in <module>
+    from torcheval.metrics.audio import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/__init__.py", line 7, in <module>
+    from torcheval.metrics.audio import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/__init__.py", line 7, in <module>
+    from torcheval.metrics.audio.fad import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/fad.py", line 13, in <module>
+    from torcheval.metrics.audio.fad import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/fad.py", line 13, in <module>
+    from torcheval.metrics.audio import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/__init__.py", line 7, in <module>
+    from torcheval.metrics.audio import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/__init__.py", line 7, in <module>
+    from torcheval.metrics.audio.fad import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/fad.py", line 13, in <module>
+    from torcheval.metrics.audio.fad import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/fad.py", line 13, in <module>
+    from torchaudio.functional import frechet_distance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/__init__.py", line 2, in <module>
+    from torcheval.metrics.audio.fad import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/fad.py", line 13, in <module>
+    from torcheval.metrics.audio.fad import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/fad.py", line 13, in <module>
+    from torchaudio.functional import frechet_distance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/__init__.py", line 2, in <module>
+    from torchaudio.functional import frechet_distance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/__init__.py", line 2, in <module>
+    from torcheval.metrics.audio.fad import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/fad.py", line 13, in <module>
+    from torchaudio.functional import frechet_distance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/__init__.py", line 2, in <module>
+    from torchaudio.functional import frechet_distance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/__init__.py", line 2, in <module>
+    from torcheval.metrics.audio.fad import FrechetAudioDistance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torcheval/metrics/audio/fad.py", line 13, in <module>
+    from . import _extension  # noqa  # usort: skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/__init__.py", line 38, in <module>
+    from torchaudio.functional import frechet_distance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/__init__.py", line 2, in <module>
+    from . import _extension  # noqa  # usort: skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/__init__.py", line 38, in <module>
+    from torchaudio.functional import frechet_distance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/__init__.py", line 2, in <module>
+    from . import _extension  # noqa  # usort: skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/__init__.py", line 38, in <module>
+    from . import _extension  # noqa  # usort: skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/__init__.py", line 38, in <module>
+    from . import _extension  # noqa  # usort: skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/__init__.py", line 38, in <module>
+    from torchaudio.functional import frechet_distance
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/__init__.py", line 2, in <module>
+    _load_lib("libtorchaudio")
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/utils.py", line 60, in _load_lib
+    from . import _extension  # noqa  # usort: skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/__init__.py", line 38, in <module>
+    from . import _extension  # noqa  # usort: skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/__init__.py", line 38, in <module>
+    from . import _extension  # noqa  # usort: skip
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/__init__.py", line 38, in <module>
+    _load_lib("libtorchaudio")
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/utils.py", line 60, in _load_lib
+    _load_lib("libtorchaudio")
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/utils.py", line 60, in _load_lib
+    _load_lib("libtorchaudio")
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/utils.py", line 60, in _load_lib
+    torch.ops.load_library(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_ops.py", line 1478, in load_library
+    _load_lib("libtorchaudio")
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/utils.py", line 60, in _load_lib
+    torch.ops.load_library(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_ops.py", line 1478, in load_library
+    _load_lib("libtorchaudio")
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/utils.py", line 60, in _load_lib
+    torch.ops.load_library(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_ops.py", line 1478, in load_library
+    _load_lib("libtorchaudio")
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/utils.py", line 60, in _load_lib
+    torch.ops.load_library(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_ops.py", line 1478, in load_library
+    torch.ops.load_library(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_ops.py", line 1478, in load_library
+    _load_lib("libtorchaudio")
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/_extension/utils.py", line 60, in _load_lib
+    torch.ops.load_library(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/ctypes/__init__.py", line 374, in __init__
+    torch.ops.load_library(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/ctypes/__init__.py", line 374, in __init__
+    ctypes.CDLL(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/ctypes/__init__.py", line 374, in __init__
+    ctypes.CDLL(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/ctypes/__init__.py", line 374, in __init__
+    ctypes.CDLL(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/ctypes/__init__.py", line 374, in __init__
+    torch.ops.load_library(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torch/_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/ctypes/__init__.py", line 374, in __init__
+    ctypes.CDLL(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: /opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/lib/libtorchaudio.so: undefined symbol: _ZNK5torch8autograd4Node4nameEv
+    self._handle = _dlopen(self._name, mode)
+OSError: /opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/lib/libtorchaudio.so: undefined symbol: _ZNK5torch8autograd4Node4nameEv
+    self._handle = _dlopen(self._name, mode)
+OSError: /opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/lib/libtorchaudio.so: undefined symbol: _ZNK5torch8autograd4Node4nameEv
+    self._handle = _dlopen(self._name, mode)
+OSError: /opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/lib/libtorchaudio.so: undefined symbol: _ZNK5torch8autograd4Node4nameEv
+    self._handle = _dlopen(self._name, mode)
+OSError: /opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/lib/libtorchaudio.so: undefined symbol: _ZNK5torch8autograd4Node4nameEv
+    ctypes.CDLL(path)
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: /opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/lib/libtorchaudio.so: undefined symbol: _ZNK5torch8autograd4Node4nameEv
+    self._handle = _dlopen(self._name, mode)
+OSError: /opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/lib/libtorchaudio.so: undefined symbol: _ZNK5torch8autograd4Node4nameEv
+    self._handle = _dlopen(self._name, mode)
+OSError: /opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/torchaudio/lib/libtorchaudio.so: undefined symbol: _ZNK5torch8autograd4Node4nameEv
+srun: error: cr1-h200-p5en48xlarge-700: tasks 16-23: Exited with exit code 1
+srun: Terminating StepId=1976267.0
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+slurmstepd: error: *** STEP 1976267.0 ON cr1-h200-p5en48xlarge-687 CANCELLED AT 2025-09-22T02:18:59 ***
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.recipe.cli import main
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.recipe.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/__init__.py", line 9, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.base import EvalRecipe as EvalRecipe
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/base.py", line 22, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+    from fairseq2.recipe.evaluator import Evaluator, EvalUnit
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/recipe/evaluator.py", line 24, in <module>
+srun: error: cr1-h200-p5en48xlarge-687: tasks 0-7: Terminated
+srun: error: cr1-h200-p5en48xlarge-715: tasks 24-31: Terminated
+srun: error: cr1-h200-p5en48xlarge-699: tasks 8-15: Terminated
+srun: Force Terminated StepId=1976267.0

@@ -1,0 +1,53 @@
+/var/spool/slurmd/job1474486/slurm_script: line 21: /fsx-ram/chuanyang/miniconda3/bin/activate: No such file or directory
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:25:28] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+srun: error: cr1-h100-p548xlarge-102: tasks 8-15: Exited with exit code 2
+srun: Terminating StepId=1474486.0
+srun: error: cr1-h100-p548xlarge-65: tasks 0-7: Exited with exit code 2
+slurmstepd: error: *** STEP 1474486.0 ON cr1-h100-p548xlarge-65 CANCELLED AT 2025-07-18T12:25:29 ***

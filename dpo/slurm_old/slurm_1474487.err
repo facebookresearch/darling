@@ -1,0 +1,52 @@
+/var/spool/slurmd/job1474487/slurm_script: line 21: /fsx-ram/chuanyang/miniconda3/bin/activate: No such file or directory
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+[07/18/25 12:26:44] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo_fairseq/dpo_config.yaml does   
+                             not point to a configuration file.                 
+srun: error: cr1-h100-p548xlarge-102: tasks 8-15: Exited with exit code 2
+srun: Terminating StepId=1474487.0
+slurmstepd: error: *** STEP 1474487.0 ON cr1-h100-p548xlarge-65 CANCELLED AT 2025-07-18T12:26:45 ***
+srun: error: cr1-h100-p548xlarge-65: tasks 0-3,5-7: Exited with exit code 2
+srun: error: cr1-h100-p548xlarge-65: task 4: Terminated
+srun: Force Terminated StepId=1474487.0

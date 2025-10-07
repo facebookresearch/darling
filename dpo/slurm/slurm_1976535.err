@@ -1,0 +1,74 @@
+/home/tianjian/.zshrc: line 1: setopt: command not found
+/home/tianjian/.zshrc: line 5: bindkey: command not found
+/home/tianjian/.zshrc: line 13: autoload: command not found
+/home/tianjian/.zshrc: line 14: compinit: command not found
+/home/tianjian/.zshrc: line 16: zstyle: command not found
+/home/tianjian/.zshrc: line 17: zstyle: command not found
+/home/tianjian/.zshrc: line 18: zstyle: command not found
+/home/tianjian/.zshrc: line 19: zstyle: command not found
+/home/tianjian/.zshrc: line 20: zstyle: command not found
+/home/tianjian/.zshrc: line 22: ${(s.:.)LS_COLORS}: bad substitution
+/home/tianjian/.zshrc: line 23: zstyle: command not found
+/home/tianjian/.zshrc: line 24: zstyle: command not found
+/home/tianjian/.zshrc: line 25: zstyle: command not found
+/home/tianjian/.zshrc: line 26: zstyle: command not found
+/home/tianjian/.zshrc: line 27: zstyle: command not found
+/home/tianjian/.zshrc: line 28: zstyle: command not found
+/home/tianjian/.zshrc: line 29: zstyle: command not found
+/home/tianjian/.zshrc: line 31: zstyle: command not found
+/home/tianjian/.zshrc: line 32: zstyle: command not found
+/home/tianjian/.zshrc: line 34: setopt: command not found
+/home/tianjian/.zshrc: line 35: setopt: command not found
+/home/tianjian/.zshrc: line 36: setopt: command not found
+usage: fairseq2 [-h] {list,show} ...
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+usage: fairseq2 [-h] {list,show} ...
+fairseq2: error: argument {list,show}: invalid choice: 'lm' (choose from 'list', 'show')
+srun: error: cr1-h200-p5en48xlarge-818: tasks 24-31: Exited with exit code 2
+srun: Terminating StepId=1976535.0
+slurmstepd: error: *** STEP 1976535.0 ON cr1-h200-p5en48xlarge-150 CANCELLED AT 2025-09-22T04:07:07 ***
+srun: error: cr1-h200-p5en48xlarge-816: tasks 8-15: Exited with exit code 2
+srun: error: cr1-h200-p5en48xlarge-817: tasks 16,18-22: Exited with exit code 2
+srun: error: cr1-h200-p5en48xlarge-817: tasks 17,23: Terminated
+srun: error: cr1-h200-p5en48xlarge-150: tasks 0-7: Terminated
+srun: Force Terminated StepId=1976535.0

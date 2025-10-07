@@ -1,0 +1,1418 @@
+/home/tianjian/.zshrc: line 1: setopt: command not found
+/home/tianjian/.zshrc: line 5: bindkey: command not found
+/home/tianjian/.zshrc: line 13: autoload: command not found
+/home/tianjian/.zshrc: line 14: compinit: command not found
+/home/tianjian/.zshrc: line 16: zstyle: command not found
+/home/tianjian/.zshrc: line 17: zstyle: command not found
+/home/tianjian/.zshrc: line 18: zstyle: command not found
+/home/tianjian/.zshrc: line 19: zstyle: command not found
+/home/tianjian/.zshrc: line 20: zstyle: command not found
+/home/tianjian/.zshrc: line 22: ${(s.:.)LS_COLORS}: bad substitution
+/home/tianjian/.zshrc: line 23: zstyle: command not found
+/home/tianjian/.zshrc: line 24: zstyle: command not found
+/home/tianjian/.zshrc: line 25: zstyle: command not found
+/home/tianjian/.zshrc: line 26: zstyle: command not found
+/home/tianjian/.zshrc: line 27: zstyle: command not found
+/home/tianjian/.zshrc: line 28: zstyle: command not found
+/home/tianjian/.zshrc: line 29: zstyle: command not found
+/home/tianjian/.zshrc: line 31: zstyle: command not found
+/home/tianjian/.zshrc: line 32: zstyle: command not found
+/home/tianjian/.zshrc: line 34: setopt: command not found
+/home/tianjian/.zshrc: line 35: setopt: command not found
+/home/tianjian/.zshrc: line 36: setopt: command not found
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[09/22/25 03:01:50] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[09/22/25 03:01:51] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:51] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:51] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:51] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:51] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[09/22/25 03:01:51] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+[09/22/25 03:01:51] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[09/22/25 03:01:51] ERROR    fairseq2 - argument: --config-file:                
+                             /home/tianjian/darling/dpo/dpo_config.yaml does not
+                             contain a valid configuration override. See logged 
+                             stack trace for details.                           
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 453, in read                              
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             97, in merge_object                                
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             103, in merge_map                                  
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             221, in _do_merge_map                              
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/utils/merge.py", line
+                             200, in _do_merge_map                              
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` does not 
+                             have an item at path 'model.config_overrides'.     
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 163, in run                               
+                                 config = self._read_config(context, args)      
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 299, in _read_config                      
+                                 return config_reader.read(                     
+                               File                                             
+                             "/home/tianjian/miniconda3/envs/alpacaeval/lib/pyth
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             on3.10/site-packages/fairseq2/cli/commands/recipe.p
+                             y", line 457, in read                              
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/tianjian/darling/dpo/dpo_config.yaml' 
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+srun: error: cr1-h200-p5en48xlarge-817: tasks 16-23: Exited with exit code 2
+srun: Terminating StepId=1976355.0
+srun: error: cr1-h200-p5en48xlarge-816: tasks 8-15: Exited with exit code 2
+srun: error: cr1-h200-p5en48xlarge-493: tasks 0-7: Exited with exit code 2

@@ -1,0 +1,78 @@
+no change     /home/tianjian/miniconda3/condabin/conda
+no change     /home/tianjian/miniconda3/bin/conda
+no change     /home/tianjian/miniconda3/bin/conda-env
+no change     /home/tianjian/miniconda3/bin/activate
+no change     /home/tianjian/miniconda3/bin/deactivate
+no change     /home/tianjian/miniconda3/etc/profile.d/conda.sh
+no change     /home/tianjian/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/tianjian/miniconda3/shell/condabin/Conda.psm1
+no change     /home/tianjian/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/tianjian/miniconda3/lib/python3.13/site-packages/xontrib/conda.xsh
+no change     /home/tianjian/miniconda3/etc/profile.d/conda.csh
+no change     /home/tianjian/.bashrc
+No action taken.
+INFO 09-22 17:14:55 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:55 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:55 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:55 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:55 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:55 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:55 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:55 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:56 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [importing.py:53] Triton module has been replaced with a placeholder.
+INFO 09-22 17:14:57 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:57 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:57 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:57 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:57 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:57 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:57 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+INFO 09-22 17:14:58 [__init__.py:239] Automatically detected platform cuda.
+NCCL version 2.21.5+cuda12.4

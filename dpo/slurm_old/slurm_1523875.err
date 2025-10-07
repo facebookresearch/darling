@@ -1,0 +1,24 @@
+/var/spool/slurmd/job1523875/slurm_script: line 21: conda: command not found
+/var/spool/slurmd/job1523875/slurm_script: line 22: /fsx-ram/chuanyang/miniconda3/bin/activate: No such file or directory
+/var/spool/slurmd/job1523875/slurm_script: line 23: conda: command not found
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+srun: error: cr1-h100-p548xlarge-86: task 8: Exited with exit code 2
+srun: Terminating StepId=1523875.0
+slurmstepd: error: *** STEP 1523875.0 ON cr1-h100-p548xlarge-14 CANCELLED AT 2025-08-07T22:09:31 ***
+srun: error: cr1-h100-p548xlarge-14: tasks 0-7: Exited with exit code 2
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+srun: error: cr1-h100-p548xlarge-86: tasks 9-15: Exited with exit code 2

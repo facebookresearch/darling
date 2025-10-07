@@ -1,0 +1,35 @@
+/var/spool/slurmd/job1402074/slurm_script: line 23: conda: command not found
+/var/spool/slurmd/job1402074/slurm_script: line 24: /fsx-ram/chuanyang/miniconda3/bin/activate: No such file or directory
+/var/spool/slurmd/job1402074/slurm_script: line 25: conda: command not found
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+srun: error: cr1-h200-p5en48xlarge-455: task 11: Exited with exit code 2
+srun: Terminating StepId=1402074.0
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+slurmstepd: error: execve(): fairseq2: No such file or directory
+srun: error: cr1-h200-p5en48xlarge-637: task 22: Exited with exit code 2
+srun: error: cr1-h200-p5en48xlarge-189: tasks 0-1: Exited with exit code 2
+slurmstepd: error: *** STEP 1402074.0 ON cr1-h200-p5en48xlarge-189 CANCELLED AT 2025-09-06T17:46:22 ***
+slurmstepd: error: execve(): fairseq2: No such file or directory
+srun: error: cr1-h200-p5en48xlarge-637: tasks 16-21,23: Exited with exit code 2
+srun: error: cr1-h200-p5en48xlarge-455: tasks 8-10,12-15: Exited with exit code 2
+srun: error: cr1-h200-p5en48xlarge-189: tasks 2-7: Exited with exit code 2

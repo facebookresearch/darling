@@ -1,0 +1,4 @@
+NCCL version 2.21.5+cuda12.4
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mrlhi_0724_preference_pairs_0724_5085_concise_with_original_persona_LR1e-7_FLR1e-17_BT0.1_WP30_EPS1e-8[0m at: [34mhttps://fairwandb.org/chuanyang/rlhi_0724/runs/yoanksmj[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../../checkpoint/ram/chuanyang/dpo/rlhi_0724_preference_pairs_0724_5085_concise_with_original_persona_LR1e-7_FLR1e-17_BT0.1_WP30_EPS1e-8/wandb/run-20250726_070937-yoanksmj/logs[0m

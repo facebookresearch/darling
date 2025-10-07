@@ -1,0 +1,868 @@
+/var/spool/slurmd/job1525600/slurm_script: line 22: /fsx-ram/chuanyang/miniconda3/bin/activate: No such file or directory
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+[08/09/25 11:40:11] ERROR    fairseq2 - argument: --config-file:                
+                             /home/chuanyang/dpo/dpo_config.yaml does not       
+                             contain a valid configuration override. See the    
+                             logged stack trace for details.                    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 452, in read       
+                                 unstructured_config = merge_object(            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 97, in merge_object        
+                                 return merge_map(target, source)               
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 103, in merge_map          
+                                 return _do_merge_map(target, source, [])       
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 190, in _do_merge_map      
+                                 output[key] = _do_merge_map(target_value,      
+                             source_value, path)                                
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/merge.py", line 184, in _do_merge_map      
+                                 raise MergeError(                              
+                             fairseq2.utils.merge.MergeError: `target` must have
+                             an item at path 'model.config'.                    
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 290, in            
+                             _read_config                                       
+                                 return config_reader.read(                     
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 456, in read       
+                                 raise InvalidConfigFileError(                  
+                             fairseq2.cli.commands.recipe.InvalidConfigFileError
+                             : The '/home/chuanyang/dpo/dpo_config.yaml'        
+                             configuration file cannot be merged with the preset
+                             configuration. See the nested exception for        
+                             details.                                           
+srun: error: cr1-h100-p548xlarge-1: tasks 0-7: Exited with exit code 2
+srun: Terminating StepId=1525600.0
+srun: error: cr1-h100-p548xlarge-32: tasks 8-15: Exited with exit code 2

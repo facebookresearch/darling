@@ -1,0 +1,615 @@
+/var/spool/slurmd/job1526249/slurm_script: line 22: /fsx-ram/chuanyang/miniconda3/bin/activate: No such file or directory
+[08/10/25 17:25:51] INFO     fairseq2 - Log files are stored under              
+                             /checkpoint/ram/chuanyang/dpo/rlhi_0802_new_prefere
+                             nce_pairs_0802_2000_rlhi_LR7e-7_FLR1e-15_BT0.1_WP30
+                             _EPS1e-8.                                          
+                    INFO     fairseq2 - Config:                                 
+                             {                                                  
+                                 'model': {                                     
+                                     'name': 'llama3_1_8b_instruct',            
+                                     'family': None,                            
+                                     'arch': None,                              
+                                     'config_overrides': None,                  
+                                     'path': None,                              
+                                     'mmap': False,                             
+                                     'compile': False,                          
+                                     'compile_options': {                       
+                                         'fullgraph': False,                    
+                                         'dynamic': None,                       
+                                         'mode': 'default',                     
+                                         'backend': 'inductor',                 
+                                         'backend_options': None                
+                                     }                                          
+                                 },                                             
+                                 'dataset': {                                   
+                                     'name': 'dpo_rip',                         
+                                     'path':                                    
+                             '/home/chuanyang/data/preference_pairs_0802_2000_rl
+                             hi.jsonl',                                         
+                                     'family': 'generic_preference',            
+                                     'source_encode_mode': 'prompt',            
+                                     'target_encode_mode': 'prompt_response',   
+                                     'mask_source_tokens': True,                
+                                     'min_seq_len': 1,                          
+                                     'max_seq_len': 8192,                       
+                                     'max_num_tokens': 16384,                   
+                                     'batch_size': 1,                           
+                                     'example_shuffle_window': 10000,           
+                                     'batch_shuffle_window': 1000,              
+                                     'num_prefetch': 4,                         
+                                     'extras': {},                              
+                                     'chat_mode': False                         
+                                 },                                             
+                                 'tokenizer': {'name': 'llama3_instruct'},      
+                                 'gang': {'tensor_parallel_size': 1, 'timeout': 
+                             15, 'high_priority': True},                        
+                                 'trainer': {                                   
+                                     'dtype': 'bfloat16',                       
+                                     'data_parallelism': 'fsdp',                
+                                     'fsdp': {                                  
+                                         'version': 'v1',                       
+                                         'granularity': 'layer',                
+                                         'hybrid': False,                       
+                                         'reshard_after_forward': True,         
+                                         'fp32_reduce': True                    
+                                     },                                         
+                                     'mixed_precision': 'static',               
+                                     'grad_accumulation': {'num_batches': 4,    
+                             'no_sync': False},                                 
+                                     'activation_checkpointing': {'mode':       
+                             'layerwise', 'every_nth_layer': 1},                
+                                     'max_grad_norm': 1,                        
+                                     'fp16_loss_scale': [128.0, 0.0001],        
+                                     'gc_every_n_steps': None,                  
+                                     'grad_check': False,                       
+                                     'anomaly_detection': False                 
+                                 },                                             
+                                 'criterion': {                                 
+                                     'name': 'dpo',                             
+                                     'config': {                                
+                                         'reference_model': {                   
+                                             'name': 'llama3_1_8b_instruct',    
+                                             'mmap': False,                     
+                                             'compile': False,                  
+                                             'compile_options': {               
+                                                 'fullgraph': False,            
+                                                 'dynamic': None,               
+                                                 'mode': 'default',             
+                                                 'backend': 'inductor',         
+                                                 'backend_options': None        
+                                             }                                  
+                                         },                                     
+                                         'beta': 0.1,                           
+                                         'nll_scale': 0.0,                      
+                                         'nll_length_normalization': True,      
+                                         'length_normalization': False,         
+                                         'reference_dtype': 'bfloat16'          
+                                     }                                          
+                                 },                                             
+                                 'optimizer': {                                 
+                                     'name': 'adamw',                           
+                                     'config': {                                
+                                         'lr': 7e-07,                           
+                                         'betas': [0.9, 0.95],                  
+                                         'eps': 1e-08,                          
+                                         'weight_decay': 0.1,                   
+                                         'amsgrad': False,                      
+                                         'maximize': False,                     
+                                         'capturable': False,                   
+                                         'differentiable': False,               
+                                         'impl': 'auto'                         
+                                     }                                          
+                                 },                                             
+                                 'lr_scheduler': {                              
+                                     'name': 'cosine_annealing',                
+                                     'config': {                                
+                                         'cycle_len': None,                     
+                                         'num_warmup_steps': 30,                
+                                         'cycle_mul': 1.0,                      
+                                         'lr_mul': 1.0,                         
+                                         'start_lr': 0.0,                       
+                                         'final_lr': 1e-15,                     
+                                         'final_lr_scale': None                 
+                                     }                                          
+                                 },                                             
+                                 'regime': {                                    
+                                     'num_steps': 2000,                         
+                                     'num_data_epochs': 100,                    
+                                     'validate_at_start': False,                
+                                     'validate_after_n_steps': 0,               
+                                     'validate_every_n_steps': None,            
+                                     'validate_after_n_data_epochs': 0,         
+                                     'validate_every_n_data_epochs': None,      
+                                     'checkpoint_after_n_steps': 0,             
+                                     'checkpoint_every_n_steps': 500,           
+                                     'checkpoint_after_n_data_epochs': 0,       
+                                     'checkpoint_every_n_data_epochs': 100,     
+                                     'save_model_only': False,                  
+                                     'save_as_hugging_face': False,             
+                                     'keep_last_n_checkpoints': 1,              
+                                     'keep_best_n_checkpoints': None,           
+                                     'keep_checkpoint_every_n_steps': None,     
+                                     'publish_metrics_after_n_steps': 0,        
+                                     'publish_metrics_every_n_steps': 1,        
+                                     'publish_metrics_after_n_data_epochs': 0,  
+                                     'publish_metrics_every_n_data_epochs': None
+                                 },                                             
+                                 'common': {                                    
+                                     'torch': {                                 
+                                         'num_threads': None,                   
+                                         'allow_tf32': True,                    
+                                         'fp16_reduced_precision': True,        
+                                         'bf16_reduced_precision': True,        
+                                         'default_sdpa': 'torch_math',          
+                                         'compiled_region_activation_memory_budg
+                             et': 1.0                                           
+                                     },                                         
+                                     'metric_recorders': {                      
+                                         'log': {'enabled': True},              
+                                         'jsonl': {'enabled': True},            
+                                         'tensorboard': {'enabled': True},      
+                                         'wandb': {                             
+                                             'enabled': True,                   
+                                             'entity': None,                    
+                                             'project': 'rlhi_0802_new',        
+                                             'run_id': 'auto',                  
+                                             'run_name': None,                  
+                                             'group': None,                     
+                                             'job_type': None,                  
+                                             'resume_mode': 'allow',            
+                                             'run':                             
+                             'rlhi_0802_new_preference_pairs_0802_2000_rlhi_LR7e
+                             -7_FLR1e-15_BT0.1_WP30_EPS1e-8'                    
+                                         }                                      
+                                     },                                         
+                                     'profilers': {                             
+                                         'torch': {                             
+                                             'enabled': False,                  
+                                             'skip_n_steps': 4,                 
+                                             'wait_n_steps': 0,                 
+                                             'num_warmup_steps': 1,             
+                                             'num_active_steps': 4,             
+                                             'repeat': 1                        
+                                         }                                      
+                                     },                                         
+                                     'assets': {'extra_path': None,             
+                             'checkpoint_dir': None},                           
+                                     'seed': 2                                  
+                                 }                                              
+                             }                                                  
+                    INFO     fairseq2 - Setting the number of threads used for  
+                             intra-op parallelism to 10.                        
+                    INFO     fairseq2 - Default SDPA variant set to             
+                             'torch_math'.                                      
+[08/10/25 17:25:55] INFO     fairseq2 - Setting 'cuda:0' as the default device  
+                             of the process.                                    
+                    INFO     fairseq2 - Host - Name: cr1-h100-p548xlarge-214 |  
+                             Platform:                                          
+                             Linux-6.8.0-1031-aws-x86_64-with-glibc2.35 | Linux 
+                             Distribution: Ubuntu 22.04.5 LTS | Number of CPUs: 
+                             10/192 (0,48,58-60,96,144,154-156) | Memory: 1.95  
+                             TiB                                                
+                    INFO     fairseq2 - Device - ID: cuda:0 | Name: NVIDIA H100 
+                             80GB HBM3 | Memory: 79.19 GiB | Number of SMs: 132 
+                             | Compute Capability: 9.0                          
+                    INFO     fairseq2 - Software - Python: 3.10.14 | PyTorch:   
+                             2.6.0+cu124 | CUDA: 12.4 | NCCL: 2.21.5 | fairseq2:
+                             0.5.0.dev0 | fairseq2n:                            
+                             0.5.0.dev202508040151+g530716a.cu124 | Python      
+                             Environment: Conda                                 
+                             (/home/chuanyang/miniconda3/envs/fairseq2_2025-08-0
+                             9)                                                 
+                    INFO     fairseq2 - Runtime Environment - Process ID:       
+                             3257134 | PyTorch Intraop Thread Count: 10         
+                    INFO     fairseq2 - Environment Variables -                 
+                             SLURM_GPUS_PER_NODE=8, SLURM_TRES_PER_TASK=cpu=10, 
+                             OMPI_MCA_plm_slurm_args=--external-launcher,       
+                             PRTE_MCA_plm_slurm_args=--external-launcher,       
+                             HYDRA_BOOTSTRAP=slurm,                             
+                             HYDRA_LAUNCHER_EXTRA_ARGS=--external-launcher,     
+                             I_MPI_HYDRA_BOOTSTRAP=slurm,                       
+                             I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS=--external-la
+                             uncher, SHELL=/bin/bash, COLORTERM=truecolor,      
+                             SLURM_JOB_USER=chuanyang,                          
+                             SLURM_TASKS_PER_NODE=8(x2), SLURM_JOB_UID=694137,  
+                             WANDB_BASE_URL=https://fairwandb.org,              
+                             TERM_PROGRAM_VERSION=1.102.3,                      
+                             SLURM_TASK_PID=3257134,                            
+                             CONDA_EXE=/home/chuanyang/miniconda3/bin/conda,    
+                             SLURM_JOB_GPUS=0,1,2,3,4,5,6,7, SLURM_LOCALID=0,   
+                             SLURM_SUBMIT_DIR=/opt/hpcaas/.mounts/fs-072917c00f0
+                             1ae1ba/home/chuanyang/dpo,                         
+                             HOSTNAME=cr1-h100-p548xlarge-214,                  
+                             SLURMD_NODENAME=cr1-h100-p548xlarge-214,           
+                             SLURM_JOB_START_TIME=1754846704,                   
+                             SSH_AUTH_SOCK=/run/user/694137/vscode-ssh-auth-sock
+                             -514161753,                                        
+                             CUDA_CACHE_PATH=/opt/dlami/nvme/chuanyang/.nv/Compu
+                             teCache/, HISTTIMEFORMAT=%F %T ,                   
+                             SLURM_CLUSTER_NAME=fair-aws-h100-1,                
+                             SLURM_JOB_END_TIME=1754882704,                     
+                             FI_EFA_USE_HUGE_PAGE=0, SLURM_CPUS_ON_NODE=80,     
+                             SLURM_JOB_CPUS_PER_NODE=80(x2),                    
+                             SLURM_GPUS_ON_NODE=8, PWD=/home/chuanyang/dpo,     
+                             SLURM_GTIDS=0,1,2,3,4,5,6,7, LOGNAME=chuanyang,    
+                             XDG_SESSION_TYPE=tty,                              
+                             CONDA_PREFIX=/home/chuanyang/miniconda3/envs/fairse
+                             q2_2025-08-09, SLURM_JOB_PARTITION=learn,          
+                             MODULESHOME=/usr/share/modules, MANPATH=:,         
+                             SLURM_OOM_KILL_STEP=0, SLURM_JOB_NUM_NODES=2,      
+                             SLURM_OPEN_MODE=a,                                 
+                             VSCODE_GIT_ASKPASS_NODE=/opt/hpcaas/.mounts/fs-0729
+                             17c00f01ae1ba/home/chuanyang/.vscode-server/cli/ser
+                             vers/Stable-488a1f239235055e34e673291fb8d8c810886f8
+                             1/server/node, SLURM_JOBID=1526249,                
+                             SLURM_JOB_QOS=alignment_shared, MOTD_SHOWN=pam,    
+                             HOME=/home/chuanyang, LANG=C.UTF-8, SLURM_PROCID=0,
+                             CLUSTER_ID=fair-aws-h100-1,                        
+                             SSL_CERT_DIR=/usr/lib/ssl/certs,                   
+                             CONDA_PROMPT_MODIFIER=(fairseq2_2025-08-09) ,      
+                             TMPDIR=/tmp,                                       
+                             GIT_ASKPASS=/opt/hpcaas/.mounts/fs-072917c00f01ae1b
+                             a/home/chuanyang/.vscode-server/cli/servers/Stable-
+                             488a1f239235055e34e673291fb8d8c810886f81/server/ext
+                             ensions/git/dist/askpass.sh,                       
+                             SLURM_CPUS_PER_TASK=10, SLURM_NTASKS=16,           
+                             SLURM_TOPOLOGY_ADDR=cr1-h100-p548xlarge-214,       
+                             SSH_CONNECTION=163.114.130.3 42112 10.200.203.89   
+                             22, VSCODE_GIT_ASKPASS_EXTRA_ARGS=,                
+                             SLURM_TOPOLOGY_ADDR_PATTERN=node,                  
+                             CUDA_VISIBLE_DEVICES=0, LESSCLOSE=/usr/bin/lesspipe
+                             %s %s, XDG_SESSION_CLASS=user,                     
+                             SLURM_SCRIPT_CONTEXT=prolog_task,                  
+                             TERM=xterm-256color, LESSOPEN=| /usr/bin/lesspipe  
+                             %s, USER=chuanyang,                                
+                             SLURM_NODELIST=cr1-h100-p548xlarge-[214,247],      
+                             VSCODE_GIT_IPC_HANDLE=/run/user/694137/vscode-git-d
+                             318b0f40a.sock,                                    
+                             WANDB_API_KEY=local-94bc1b16aff0febd7d5abee21969c9e
+                             b2451a048, ENVIRONMENT=BATCH, CONDA_SHLVL=2,       
+                             LOADEDMODULES=, SLURM_JOB_ACCOUNT=ram_external,    
+                             SLURM_PRIO_PROCESS=0, SLURM_NPROCS=16, SHLVL=3,    
+                             SLURM_NNODES=2, WANDB_ENTITY=chuanyang,            
+                             XDG_SESSION_ID=2803, SLURM_SUBMIT_HOST=submit-1,   
+                             CONDA_PYTHON_EXE=/home/chuanyang/miniconda3/bin/pyt
+                             hon,                                               
+                             LD_LIBRARY_PATH=/usr/local/cuda-12.8/lib:/usr/local
+                             /cuda-12.8/lib64:/usr/local/cuda-12.8:/usr/local/cu
+                             da-12.8/targets/x86_64-linux/lib/:/usr/local/cuda-1
+                             2.8/extras/CUPTI/lib64:/opt/amazon/efa/lib:/opt/ama
+                             zon/openmpi/lib:/opt/amazon/ofi-nccl/lib/x86_64-lin
+                             ux-gnu:/usr/local/lib:/usr/lib:/usr/local/cuda-12.8
+                             /lib:/usr/local/cuda-12.8/lib64:/usr/local/cuda-12.
+                             8:/usr/local/cuda-12.8/targets/x86_64-linux/lib/:/u
+                             sr/local/cuda-12.8/extras/CUPTI/lib64:/opt/amazon/e
+                             fa/lib:/opt/amazon/openmpi/lib:/opt/amazon/ofi-nccl
+                             /lib/x86_64-linux-gnu:/usr/local/lib:/usr/lib:/usr/
+                             local/cuda-12.8/lib:/usr/local/cuda-12.8/lib64:/usr
+                             /local/cuda-12.8:/usr/local/cuda-12.8/targets/x86_6
+                             4-linux/lib/:/usr/local/cuda-12.8/extras/CUPTI/lib6
+                             4:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/opt/
+                             amazon/ofi-nccl/lib/x86_64-linux-gnu:/usr/local/lib
+                             :/usr/lib, XDG_RUNTIME_DIR=/run/user/694137,       
+                             SLURM_JOB_ID=1526249,                              
+                             SSL_CERT_FILE=/usr/lib/ssl/certs/ca-certificates.cr
+                             t, SLURM_NODEID=0, SSH_CLIENT=163.114.130.3 42112  
+                             22, CONDA_DEFAULT_ENV=fairseq2_2025-08-09,         
+                             VSCODE_GIT_ASKPASS_MAIN=/opt/hpcaas/.mounts/fs-0729
+                             17c00f01ae1ba/home/chuanyang/.vscode-server/cli/ser
+                             vers/Stable-488a1f239235055e34e673291fb8d8c810886f8
+                             1/server/extensions/git/dist/askpass-main.js,      
+                             XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/
+                             snapd/desktop,                                     
+                             SLURM_CONF=/opt/slurm/etc/slurm.conf,              
+                             BROWSER=/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/ho
+                             me/chuanyang/.vscode-server/cli/servers/Stable-488a
+                             1f239235055e34e673291fb8d8c810886f81/server/bin/hel
+                             pers/browser.sh,                                   
+                             PATH=/home/chuanyang/miniconda3/envs/fairseq2_2025-
+                             08-09/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:
+                             /usr/bin:/sbin:/bin:/snap/bin:/opt/slurm/bin:/opt/s
+                             lurm/sbin, SLURM_JOB_NAME=dpo_wildchat,            
+                             MODULEPATH=/opt/amazon/modules/modulefiles:/opt/ama
+                             zon/modules/modulefiles:/etc/environment-modules/mo
+                             dules:/usr/share/modules/versions:/usr/share/module
+                             s/$MODULE_VERSION/modulefiles:/usr/share/modules/mo
+                             dulefiles, SLURM_NTASKS_PER_NODE=8,                
+                             DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/694137
+                             /bus, CONDA_PREFIX_1=/home/chuanyang/miniconda3,   
+                             SLURM_JOB_GID=694137,                              
+                             OLDPWD=/home/chuanyang/dpo/slurm,                  
+                             SLURM_JOB_NODELIST=cr1-h100-p548xlarge-[214,247],  
+                             MODULES_CMD=/usr/lib/x86_64-linux-gnu/modulecmd.tcl
+                             , TERM_PROGRAM=vscode,                             
+                             VSCODE_IPC_HOOK_CLI=/run/user/694137/vscode-ipc-af4
+                             85b76-a764-4815-ba9f-d5242a7fb142.sock,            
+                             _=/opt/slurm/bin/srun, SLURM_MPI_TYPE=pmi2,        
+                             SRUN_DEBUG=3, SLURM_UMASK=0002,                    
+                             SLURM_DISTRIBUTION=block, SLURMD_DEBUG=2,          
+                             SLURM_STEP_ID=0, SLURM_STEPID=0,                   
+                             SLURM_STEP_NODELIST=cr1-h100-p548xlarge-[214,247], 
+                             SLURM_STEP_NUM_NODES=2, SLURM_STEP_NUM_TASKS=16,   
+                             SLURM_STEP_TASKS_PER_NODE=8(x2),                   
+                             SLURM_STEP_LAUNCHER_PORT=60545,                    
+                             SLURM_SRUN_COMM_PORT=60545,                        
+                             SLURM_SRUN_COMM_HOST=10.200.218.38,                
+                             SLURM_STEP_GPUS=0,1,2,3,4,5,6,7,                   
+                             SLURM_CPU_BIND=quiet,mask_cpu:0x000000001C010000000
+                             00001000000001C01000000000001,0x00000003E0000000000
+                             0000000000003E000000000000000,0x0000007C00000000000
+                             000000000007C0000000000000000,0x00000F8000000000000
+                             0000000000F800000000000000000,0x0001F00000000000000
+                             000000001F0000000000000000000,0x003E000000000000000
+                             00000003E00000000000000000000,0x07C0000000000000000
+                             0000007C000000000000000000000,0xF800000000000000000
+                             00000F80000000000000000000000,                     
+                             SLURM_CPU_BIND_LIST=0x000000001C0100000000000100000
+                             0001C01000000000001,0x00000003E00000000000000000000
+                             003E000000000000000,0x0000007C000000000000000000000
+                             07C0000000000000000,0x00000F80000000000000000000000
+                             F800000000000000000,0x0001F00000000000000000000001F
+                             0000000000000000000,0x003E00000000000000000000003E0
+                             0000000000000000000,0x07C00000000000000000000007C00
+                             0000000000000000000,0xF80000000000000000000000F8000
+                             0000000000000000000, SLURM_CPU_BIND_TYPE=mask_cpu:,
+                             SLURM_CPU_BIND_VERBOSE=quiet,                      
+                             SLURM_LAUNCH_NODE_IPADDR=10.200.218.38, PMI_FD=17, 
+                             PMI_JOBID=1526249.0, PMI_RANK=0, PMI_SIZE=16,      
+                             _RJEM_MALLOC_CONF=dirty_decay_ms:500,muzzy_decay_ms
+                             :-1, RAY_CLIENT_MODE=0, NCCL_CUMEM_ENABLE=0,       
+                             PYTORCH_NVML_BASED_CUDA_CHECK=1,                   
+                             TORCHINDUCTOR_COMPILE_THREADS=1,                   
+                             TORCHINDUCTOR_CACHE_DIR=/tmp/torchinductor_chuanyan
+                             g, WORLD_SIZE=16, RANK=0, LOCAL_WORLD_SIZE=8,      
+                             LOCAL_RANK=0, MASTER_ADDR=cr1-h100-p548xlarge-214, 
+                             MASTER_PORT=44199, TORCH_CPP_LOG_LEVEL=INFO,       
+                             NCCL_DEBUG=INFO,                                   
+                             NCCL_DEBUG_FILE=/checkpoint/ram/chuanyang/dpo/rlhi_
+                             0802_new_preference_pairs_0802_2000_rlhi_LR7e-7_FLR
+                             1e-15_BT0.1_WP30_EPS1e-8/logs/nccl/rank_0.log,     
+                             TORCH_SHOW_CPP_STACKTRACES=1,                      
+                             TRITON_CACHE_DIR=/checkpoint/ram/chuanyang/dpo/rlhi
+                             _0802_new_preference_pairs_0802_2000_rlhi_LR7e-7_FL
+                             R1e-15_BT0.1_WP30_EPS1e-8/cache/triton/rank_0,     
+                             PYTORCH_KERNEL_CACHE_PATH=/checkpoint/ram/chuanyang
+                             /dpo/rlhi_0802_new_preference_pairs_0802_2000_rlhi_
+                             LR7e-7_FLR1e-15_BT0.1_WP30_EPS1e-8/cache/torch/jit,
+                              CUDA_MODULE_LOADING=LAZY                          
+                    INFO     fairseq2 - Initializing the root gang.             
+[08/10/25 17:25:59] INFO     fairseq2 - Root gang initialized.                  
+                    INFO     fairseq2 - Initializing parallel gangs.            
+                    INFO     fairseq2 - Initializing data parallel gang with 16 
+                             process(es).                                       
+                    INFO     fairseq2 - Data parallel gang initialized.         
+                    INFO     fairseq2 - Initializing tensor parallel gang with 1
+                             process(es).                                       
+                    INFO     fairseq2 - Tensor parallel gang initialized.       
+                    INFO     fairseq2 - Initializing pipeline parallel gang with
+                             1 process(es).                                     
+                    INFO     fairseq2 - Pipeline parallel gang initialized.     
+                    INFO     fairseq2 - Parallel gangs initialized.             
+                    INFO     fairseq2 - Performing a collective barrier call to 
+                             warm up gangs. This can take up to several minutes 
+                             depending on the topology.                         
+[08/10/25 17:26:02] INFO     fairseq2 - Gangs warmed up.                        
+                    INFO     fairseq2 - Process Ranks - Data: 0 |               
+                             Data/Replicated: 0 | Data/Sharded: 0 | Tensor: 0 | 
+                             Pipeline: 0                                        
+                    INFO     fairseq2 - Model Config:                           
+                             LLaMAConfig(                                       
+                                 model_dim=4096,                                
+                                 max_seq_len=131072,                            
+                                 vocab_size=128256,                             
+                                 pad_idx=128004,                                
+                                 tied_embeddings=False,                         
+                                 num_layers=32,                                 
+                                 num_attn_heads=32,                             
+                                 num_key_value_heads=8,                         
+                                 ffn_inner_dim=16384,                           
+                                 ffn_inner_dim_scale=0.6666666666666666,        
+                                 ffn_inner_dim_multiplier=1.3,                  
+                                 ffn_inner_dim_multiple_of=1024,                
+                                 rope_theta=500000.0,                           
+                                 use_scaled_rope=True,                          
+                                 rope_scale=LLaMARoPEScaleConfig(               
+                                     factor=8.0,                                
+                                     frequency_factors=(1.0, 4.0),              
+                                     original_context_length=8192               
+                                 ),                                             
+                                 dropout_p=0.0,                                 
+                                 init_std=None,                                 
+                                 init_std_scale='layer',                        
+                                 shard_embed_dim=False,                         
+                                 hg_config_class='LlamaConfig',                 
+                                 hg_architecture='LlamaForCausalLM'             
+                             )                                                  
+                    INFO     fairseq2 - Loading 'llama3_1_8b_instruct' model on 
+                             data parallel rank 0.                              
+
+[08/10/25 17:26:43] INFO     fairseq2 - Model loaded on data parallel rank 0.   
+                    INFO     fairseq2 - Wrapping the model with FSDP1 and       
+                             broadcasting to all processes.                     
+                    INFO     fairseq2 - Model wrapped with FSDP1 and            
+                             broadcasted.                                       
+                    INFO     fairseq2 - Model (rank 0) - Parameter Size:        
+                             501,891,328 | Parameter Size (bytes): 1.87 GiB |   
+                             Trainable Parameter Size: 501,891,328 | Trainable  
+                             Parameter Size (bytes): 1.87 GiB | Buffer Size:    
+                             16,777,344 | Buffer Size (bytes): 64.00 MiB | Total
+                             Size: 518,668,672 | Total Size (bytes): 1.93 GiB   
+                             FullyShardedDataParallel(                          
+                               (_fsdp_wrapped_module): TransformerLM(           
+                                 model_dim=4096, pad_idx=128004,                
+                             max_seq_len=131072                                 
+                                 (decoder_frontend):                            
+                             TransformerEmbeddingFrontend(                      
+                                   (embed):                                     
+                             StandardEmbedding(num_embeddings=128256,           
+                             embed_dim=4096, pad_idx=128004, init_fn=init_embed)
+                                   (pos_encoder): None                          
+                                   (dropout): None                              
+                                 )                                              
+                                 (decoder): StandardTransformerLMDecoder(       
+                                   (layers): ModuleList(                        
+                                     (0-31): 32 x FullyShardedDataParallel(     
+                                       (_fsdp_wrapped_module):                  
+                             CheckpointWrapper(                                 
+                                         (_checkpoint_wrapped_module):          
+                             StandardTransformerLMDecoderLayer(                 
+                                           norm_order=PRE                       
+                                           (self_attn_layer_norm):              
+                             RMSNorm(normalized_shape=(4096,), eps=1E-05,       
+                             elementwise_affine=True)                           
+                                           (self_attn):                         
+                             StandardMultiheadAttention(                        
+                                             num_heads=32,                      
+                             num_key_value_heads=8, num_query_groups=4          
+                                             (q_proj): Linear(input_dim=4096,   
+                             output_dim=4096, bias=False,                       
+                             init_fn=init_projection)                           
+                                             (k_proj): Linear(input_dim=4096,   
+                             output_dim=1024, bias=False,                       
+                             init_fn=init_projection)                           
+                                             (v_proj): Linear(input_dim=4096,   
+                             output_dim=1024, bias=False,                       
+                             init_fn=init_projection)                           
+                                             (q_norm): None                     
+                                             (k_norm): None                     
+                                             (pos_encoder):                     
+                             RotaryEncoder(encoding_dim=128, max_seq_len=131072,
+                             theta=500000.0, freqs_init_fn=init_rope_freqs)     
+                                             (sdpa):                            
+                             TorchSDPA(bias=CausalAttentionBias(), dropout_p=0) 
+                                             (output_proj):                     
+                             Linear(input_dim=4096, output_dim=4096, bias=False,
+                             init_fn=init_projection)                           
+                                           )                                    
+                                           (self_attn_dropout): None            
+                                           (self_attn_residual):                
+                             AdditiveResidualConnect()                          
+                                           (ffn_layer_norm):                    
+                             RMSNorm(normalized_shape=(4096,), eps=1E-05,       
+                             elementwise_affine=True)                           
+                                           (ffn): GLUFeedForwardNetwork(        
+                                             inner_dim_scale=0.666667,          
+                             inner_dim_to_multiple=1024                         
+                                             (gate_proj): Linear(input_dim=4096,
+                             output_dim=14336, bias=False,                      
+                             init_fn=init_projection)                           
+                                             (gate_activation): SiLU()          
+                                             (inner_proj):                      
+                             Linear(input_dim=4096, output_dim=14336,           
+                             bias=False, init_fn=init_projection)               
+                                             (inner_dropout): None              
+                                             (output_proj):                     
+                             Linear(input_dim=14336, output_dim=4096,           
+                             bias=False, init_fn=init_projection)               
+                                           )                                    
+                                           (ffn_dropout): None                  
+                                           (ffn_residual):                      
+                             AdditiveResidualConnect()                          
+                                         )                                      
+                                       )                                        
+                                     )                                          
+                                   )                                            
+                                   (layer_norm):                                
+                             RMSNorm(normalized_shape=(4096,), eps=1E-05,       
+                             elementwise_affine=True)                           
+                                   (dropout): None                              
+                                 )                                              
+                                 (final_proj): Linear(input_dim=4096,           
+                             output_dim=128256, bias=False,                     
+                             init_fn=init_projection)                           
+                               )                                                
+                             )                                                  
+                    INFO     fairseq2 - Loading the dataset.                    
+                    INFO     fairseq2 - Dataset loaded.                         
+                    INFO     fairseq2 - Loading 'llama3_instruct' tokenizer.    
+                    INFO     fairseq2 - Tokenizer loaded.                       
+                    INFO     fairseq2 - Tokenizer - Size: 128,256 | UNK: None | 
+                             BOS: 128000 | EOS: 128009 | PAD: 128004 | BOH:     
+                             128006 | EOH: 128007                               
+                    ERROR    fairseq2 - The recipe configuration cannot be      
+                             parsed. See the logged stack trace for details.    
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/structured.py", line 124, in structure     
+                                 return structurer(orig_type, type_args, obj,   
+                             set_empty)                                         
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/structured.py", line 179, in               
+                             _structure_dataclass                               
+                                 return self._create_dataclass(kls, values,     
+                             set_empty)                                         
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/structured.py", line 227, in               
+                             _create_dataclass                                  
+                                 raise StructureError(                          
+                             fairseq2.utils.structured.StructureError: `obj`    
+                             must contain only keys corresponding to the fields 
+                             of `<class                                         
+                             'fairseq2.recipes.lm._preference_finetune._dpo.DpoF
+                             inetuneConfig'>`, but it contains the following    
+                             extra keys: reference_dtype                        
+                                                                                
+                             The above exception was the direct cause of the    
+                             following exception:                               
+                                                                                
+                             Traceback (most recent call last):                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/cli/commands/recipe.py", line 205, in _do_run    
+                                 recipe = self._loader(context, config,         
+                             output_dir)                                        
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/recipes/lm/_preference_finetune/_recipe.py", line
+                             149, in load_po_finetuner                          
+                                 unit = unit_handler.create(model, gangs,       
+                             config)                                            
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/recipes/lm/_preference_finetune/_dpo.py", line   
+                             259, in create                                     
+                                 config =                                       
+                             structure(recipe_config.criterion.config,          
+                             DpoFinetuneConfig)                                 
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/structured.py", line 617, in structure     
+                                 obj = default_value_converter.structure(obj,   
+                             kls, set_empty=set_empty)                          
+                               File                                             
+                             "/opt/hpcaas/.mounts/fs-072917c00f01ae1ba/home/chua
+                             nyang/envs/fairseq2_2025-08-09/fairseq2/src/fairseq
+                             2/utils/structured.py", line 126, in structure     
+                                 raise StructureError(                          
+                             fairseq2.utils.structured.StructureError: `obj`    
+                             cannot be structured to `<class                    
+                             'fairseq2.recipes.lm._preference_finetune._dpo.DpoF
+                             inetuneConfig'>`. See the nested exception for     
+                             details.                                           
+srun: error: cr1-h100-p548xlarge-247: task 11: Exited with exit code 2
+srun: Terminating StepId=1526249.0
+slurmstepd: error: *** STEP 1526249.0 ON cr1-h100-p548xlarge-214 CANCELLED AT 2025-08-10T17:26:47 ***
+srun: error: cr1-h100-p548xlarge-247: task 12: Exited with exit code 2
+srun: error: cr1-h100-p548xlarge-214: task 5: Exited with exit code 2
+srun: error: cr1-h100-p548xlarge-247: task 10: Exited with exit code 2
+srun: error: cr1-h100-p548xlarge-214: task 4: Exited with exit code 2
+srun: error: cr1-h100-p548xlarge-214: task 1: Exited with exit code 2
+srun: error: cr1-h100-p548xlarge-247: tasks 8,13-14: Exited with exit code 2
+srun: error: cr1-h100-p548xlarge-247: task 9: Exited with exit code 2
+srun: error: cr1-h100-p548xlarge-247: task 15: Exited with exit code 2
+srun: error: cr1-h100-p548xlarge-214: tasks 3,6-7: Exited with exit code 2
+srun: error: cr1-h100-p548xlarge-214: task 2: Exited with exit code 2
+srun: error: cr1-h100-p548xlarge-214: task 0: Exited with exit code 2

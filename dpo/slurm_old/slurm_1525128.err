@@ -1,0 +1,22 @@
+/var/spool/slurmd/job1525128/slurm_script: line 22: /fsx-ram/chuanyang/miniconda3/bin/activate: No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+srun: error: cr1-h100-p548xlarge-189: task 4: Exited with exit code 2
+srun: Terminating StepId=1525128.0
+slurmstepd: error: *** STEP 1525128.0 ON cr1-h100-p548xlarge-189 CANCELLED AT 2025-08-09T02:30:41 ***
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+srun: error: cr1-h100-p548xlarge-189: tasks 0-3,5-7: Exited with exit code 2
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+slurmstepd: error: execve(): bad interpreter(/home/chuanyang/envs/fairseq/conda/bin/python3.10): No such file or directory
+srun: error: cr1-h100-p548xlarge-269: tasks 8-15: Exited with exit code 2

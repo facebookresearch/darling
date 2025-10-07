@@ -1,0 +1,347 @@
+/home/tianjian/.zshrc: line 1: setopt: command not found
+/home/tianjian/.zshrc: line 5: bindkey: command not found
+/home/tianjian/.zshrc: line 13: autoload: command not found
+/home/tianjian/.zshrc: line 14: compinit: command not found
+/home/tianjian/.zshrc: line 16: zstyle: command not found
+/home/tianjian/.zshrc: line 17: zstyle: command not found
+/home/tianjian/.zshrc: line 18: zstyle: command not found
+/home/tianjian/.zshrc: line 19: zstyle: command not found
+/home/tianjian/.zshrc: line 20: zstyle: command not found
+/home/tianjian/.zshrc: line 22: ${(s.:.)LS_COLORS}: bad substitution
+/home/tianjian/.zshrc: line 23: zstyle: command not found
+/home/tianjian/.zshrc: line 24: zstyle: command not found
+/home/tianjian/.zshrc: line 25: zstyle: command not found
+/home/tianjian/.zshrc: line 26: zstyle: command not found
+/home/tianjian/.zshrc: line 27: zstyle: command not found
+/home/tianjian/.zshrc: line 28: zstyle: command not found
+/home/tianjian/.zshrc: line 29: zstyle: command not found
+/home/tianjian/.zshrc: line 31: zstyle: command not found
+/home/tianjian/.zshrc: line 32: zstyle: command not found
+/home/tianjian/.zshrc: line 34: setopt: command not found
+/home/tianjian/.zshrc: line 35: setopt: command not found
+/home/tianjian/.zshrc: line 36: setopt: command not found
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    raise RuntimeError(
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    from fairseq2.cli import main
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    _check_torch_version()
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    raise RuntimeError(
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    raise RuntimeError(
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    raise RuntimeError(
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+Traceback (most recent call last):
+  File "/home/tianjian/miniconda3/envs/alpacaeval/bin/fairseq2", line 5, in <module>
+    from fairseq2.cli import main
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2/__init__.py", line 11, in <module>
+    import fairseq2n  # Report any fairseq2n initialization error eagerly.
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 194, in <module>
+    _check_torch_version()
+  File "/home/tianjian/miniconda3/envs/alpacaeval/lib/python3.10/site-packages/fairseq2n/__init__.py", line 189, in _check_torch_version
+    raise RuntimeError(
+RuntimeError: fairseq2 requires a CUDA 12.4 build of PyTorch 2.6.0, but the installed version is a CUDA 12.8 build of PyTorch 2.8.0. Either follow the instructions at https://pytorch.org/get-started/locally to update PyTorch, or the instructions at https://github.com/facebookresearch/fairseq2#variants to update fairseq2.
+srun: error: cr1-h200-p5en48xlarge-167: tasks 0-7: Exited with exit code 1
+srun: Terminating StepId=1976349.0
+srun: error: cr1-h200-p5en48xlarge-817: tasks 16-23: Exited with exit code 1
+srun: error: cr1-h200-p5en48xlarge-818: tasks 24-31: Exited with exit code 1
+srun: error: cr1-h200-p5en48xlarge-816: tasks 8-15: Exited with exit code 1
