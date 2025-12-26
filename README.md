@@ -1,45 +1,100 @@
 ﻿# DARLING
 This is the official implementation of the paper [Jointly Reinforcing Diversity and Quality of Language Model Generations](https://arxiv.org/abs/2509.02534).
 
+DARLING uses the [verl](https://github.com/volcengine/verl) (Volcano Engine Reinforcement Learning) framework to jointly optimize for both diversity and quality in language model generations through reinforcement learning.
+
 ## Getting Started for Training
-Creating conda environment and install dependencies:
+
+### Environment Setup
+Create conda environment and install dependencies:
 
     conda create -n verlenv python=3.10
-Installing PyTorch (here we only tested on cuda 12.8)
+    conda activate verlenv
+
+Install PyTorch (tested on CUDA 12.8):
 
     pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu128
-Install other dependencies:
+
+Install verl and other dependencies:
 
     cd verl
     pip install -e ./
-    # This code only uses FSDP. If you need to use megatron please remove USE_MEGATRON=0
-    USE_MEGATRON=0  bash scripts/install_vllm_sglang_mcore.sh
-    # vllm 0.8.3
-    pip install vllm==0.8.3
-    # flash-attn
-    pip3 install flash-attn --no-build-isolation
-To use Wandb, you would also need to set your api key:
+    # This code only uses FSDP. If you need to use Megatron, remove USE_MEGATRON=0
+    USE_MEGATRON=0 bash scripts/install_vllm_sglang_mcore.sh
+    pip install vllm==0.11.0
+    pip install flash-attn --no-build-isolation
+
+To use Wandb for experiment tracking:
 
     export WANDB_API_KEY=<your_api_key>
 
 
 ## Training Scripts
-Training scripts for non-verifiable tasks can be found at `verl/wildchat_scripts`
-Training scripts for verifiable tasks can be found at `verl/math_scripts`
+- **Verifiable tasks (math)**: `verl/math_scripts/`
+- **Non-verifiable tasks (creative writing)**: `verl/wildchat_scripts/`
 
-## Running Darling
-First you would need to serve the partition classifier (an HF checkpoint) from a server:
+Each directory contains:
+- `darling.batch`: DARLING training with diversity rewards
+- `grpo_baseline.batch`: GRPO baseline for comparison
 
-    bash serve_classifier.sh <PATH_TO_CLASSIFIER_HF>
+## Running DARLING
 
-Then you would need to either manually change the hostname in `verl/verl/utils/reward_score/partition_reward_vllm_serve.py`
-or set the environment variable:
+### 1. Serve the Partition Classifier
+First, serve the partition classifier used for diversity rewards:
 
-    export VLLM_SERVER_HOSTNAME=<your hostname>
-Then you can launch `math_scripts/darling.batch`for training on Qwen-4B-Base or `wildchat_scripts/darling.batch` for training wildchat on Llama-3.1-8B-Instruct.
+    bash verl/serve_classifier.sh <PATH_TO_CLASSIFIER_HF>
+
+This will serve 8 instances of the classifier on ports 8000-8007.
+
+### 2. Set the Server Hostname
+Set the hostname where the classifier is running:
+
+    export VLLM_SERVER_HOSTNAME=<your_hostname>
+
+Alternatively, you can manually edit `verl/verl/utils/reward_score/partition_reward_vllm_serve.py`.
+
+### 3. Launch Training
+For **math tasks** (Qwen-4B-Base):
+
+    # Edit verl/math_scripts/darling.batch to configure your cluster settings
+    sbatch verl/math_scripts/darling.batch
+
+For **creative writing tasks** (Llama-3.1-8B-Instruct):
+
+    # Edit verl/wildchat_scripts/darling.batch to configure your cluster settings
+    sbatch verl/wildchat_scripts/darling.batch
+
+## Configuring Hyperparameters
+Hyperparameters can be configured by editing the script variables or passing command-line arguments:
+
+**Key Parameters:**
+- `B`: Training batch size (e.g., 256 for math, 64 for wildchat)
+- `N`: Number of samples per prompt (default: 8)
+- `L`: Maximum response length (e.g., 8192 for math, 1024 for wildchat)
+- `actor_rollout_ref.actor.optim.lr`: Learning rate (default: 1e-6)
+- `actor_rollout_ref.rollout.temperature`: Sampling temperature
+- `trainer.total_epochs`: Total training epochs
+
+For the full list of available hyperparameters, see the training scripts in `verl/math_scripts/` and `verl/wildchat_scripts/`.
 
 ## Evaluation
-All evaluation for noveltybench, eqbench and math tasks can be found in `evals`.
+
+The `evals/` directory contains benchmarks for evaluating model outputs:
+
+### Math Evaluation (`evals/math_evaluation/`)
+Evaluates mathematical reasoning on standard benchmarks. See [evals/math_evaluation/README.md](evals/math_evaluation/README.md) for setup and usage.
+
+### NoveltyBench (`evals/novelty-bench/`)
+Evaluates the diversity and novelty of model generations. This benchmark:
+- Generates multiple responses from models
+- Groups semantically similar responses using partitioning
+- Scores response quality
+- Provides a diversity-quality tradeoff analysis
+
+See [evals/novelty-bench/README.md](evals/novelty-bench/README.md) for details and [project webpage](https://novelty-bench.github.io/).
+
+### Creative Writing Benchmark (`evals/creative-writing-bench/`)
+Evaluates creative writing capabilities using the EQ-Bench v3 system with hybrid rubric and Elo scoring. See [evals/creative-writing-bench/README.md](evals/creative-writing-bench/README.md) for details.
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
