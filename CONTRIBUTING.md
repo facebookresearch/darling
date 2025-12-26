@@ -1,4 +1,4 @@
-# Contributing to RAM
+# Contributing to darling
 
 While we are seeding this project with an initial set of popular tasks and a few
 models and examples, ongoing contributions from the research community are

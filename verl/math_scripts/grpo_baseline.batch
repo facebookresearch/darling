@@ -108,4 +108,4 @@ PYTHONBUFFERED=1 srun --overlap --nodes 1 --ntasks=1 -w "$head_node" \
     trainer.default_local_dir=${SCRATCH_DIR}/test_checkpoints/${NAME} \
     trainer.save_freq=25 \
     trainer.test_freq=25 \
-    trainer.total_epochs=10 
+    trainer.total_epochs=10 $@ +reward_model.lambda_rule_rescale=0.0 
